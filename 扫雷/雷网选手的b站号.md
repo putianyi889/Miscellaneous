@@ -3,4 +3,5 @@
 - 钟言[13688]：https://space.bilibili.com/326081311
 - 焦子南[14491]：https://space.bilibili.com/22893897
 - 鞠泽恩[18290]：https://space.bilibili.com/286760491
+- 储天[19122]：https://space.bilibili.com/14269255
 - 姜霁恒[20823]：https://space.bilibili.com/2973705
