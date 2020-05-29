@@ -21,6 +21,10 @@ int RightPosition(number4 x, number4 y){
   return (Digit1(z)?1:0) + (Digit2(z)?1:0) + (Digit3(z)?1:0) + (Digit4(z)?1:0);
 }
 
-int WrongPosition(number4 x,number4 y){
+inline int WrongPosition(number4 x,number4 y){
   return RightPosition(x, y>>4|y<<12) + RightPosition(x, y>>8|y<<8) + RightPosition(x,y>>12|y<<4);
+}
+
+inline bool IsValidGuess(number4 x){
+  return WrongPosition(x,x) ? false : true;
 }
