@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdint.h>
 #include <string.h>
 #include <random>
 #include <ctime>
@@ -9,6 +8,16 @@ typedef unsigned short int number4;
 number4 Candidates[10000]={};
 number4 CandidatesBak[10000]={};
 std::mt19937 rng(time(0));
+
+number4 dec2bcd(number4 x){
+  number4 ret;
+  ret = (x / 1000) << 12;
+  x = x % 1000;
+  ret |= (x / 100) << 8;
+  x = x % 100;
+  ret |= ((x / 10) << 4) | (x % 10);
+  return ret;
+}
 
 inline number4 Digit1(number4 x){
   return x & 0xF000;
@@ -27,7 +36,7 @@ inline number4 Digit4(number4 x){
 }
 
 int RightPosition(number4 x, number4 y){
-  z = x ^ y;
+  number4 z = x ^ y;
   return (Digit1(z)?1:0) + (Digit2(z)?1:0) + (Digit3(z)?1:0) + (Digit4(z)?1:0);
 }
 
@@ -49,7 +58,8 @@ bool IsValidGuess(number4 x){
 
 void InitCandidatesBak(){
   CandidatesBak[0] = 0;
-  for (number4 digit1=&0x0000; digit1<0xa000; digit1+=0x1000){
+  number4 candidate;
+  for (number4 digit1=0x0000; digit1<0xa000; digit1+=0x1000){
     for (number4 digit2=0x0000; digit2<0x0a00; digit2+=0x0100){
       if (digit2 == (digit1>>4))
         continue;
@@ -80,11 +90,11 @@ void InitCandidates(int lower=0x0000, int upper=0x9999){
   }
 }
 
-void UpdateCandidates(number4 guess, int RP, int WP)
-  for (int i=Candidate[0]; i>0; --i){
-    if (RightPosition(guess, Candidate[i]) != RP || WrongPosition(guess, Candidate[i]) != WP){
-      Candidate[i] = Candidate[Candidate[0]];
-      --Candidate[0];
+void UpdateCandidates(number4 guess, int RP, int WP){
+  for (int i=Candidates[0]; i>0; --i){
+    if (RightPosition(guess, Candidates[i]) != RP || WrongPosition(guess, Candidates[i]) != WP){
+      Candidates[i] = Candidates[Candidates[0]];
+      --Candidates[0];
     }
   }
 }
@@ -92,10 +102,11 @@ void UpdateCandidates(number4 guess, int RP, int WP)
 int main(){
   InitCandidatesBak();
   double tries, avgtries=0;
-  int samplesize=100, feedback=10;
+  int samplesize=10000, feedback=100;
+  number4 answer, bound, guess;
   for (int t=0; t<samplesize; ++t) {
     answer = CandidatesBak[rng()%CandidatesBak[0] + 1];
-    bound = (number4) dec2bcd((number 4) (rng() % 10000));
+    bound = (number4) dec2bcd((number4) (rng() % 10000));
     if (answer < bound)
       InitCandidates(0, bound-1);
     else
@@ -106,7 +117,7 @@ int main(){
     }
     avgtries += tries / samplesize;
     if (t % feedback == 0)
-      printf("%f%% completed.\n", (double)feedback / (double)samplesize * 100.0);
+      printf("%f%% completed.\n", (double)t / (double)samplesize * 100.0);
   }
   printf("avgtries = %f\n", avgtries);
   return 0;
