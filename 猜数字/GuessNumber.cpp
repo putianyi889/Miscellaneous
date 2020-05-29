@@ -92,7 +92,7 @@ void UpdateCandidates(number4 guess, int RP, int WP)
 int main(){
   InitCandidatesBak();
   double tries, avgtries=0;
-  int samplesize=1000000, feedback=10000;
+  int samplesize=100, feedback=10;
   for (int t=0; t<samplesize; ++t) {
     answer = CandidatesBak[rng()%CandidatesBak[0] + 1];
     bound = (number4) dec2bcd((number 4) (rng() % 10000));
@@ -108,6 +108,6 @@ int main(){
     if (t % feedback == 0)
       printf("%f%% completed.\n", (double)feedback / (double)samplesize * 100.0);
   }
-  printf("avgtries = %f\n, avgtries);
+  printf("avgtries = %f\n", avgtries);
   return 0;
 }
