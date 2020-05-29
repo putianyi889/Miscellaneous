@@ -1,3 +1,9 @@
+/*
+猜数字，10选4不重复
+初始会在0-9999随机一个数并和答案比较，提供答案的大致范围
+随机简单策略
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <random>
