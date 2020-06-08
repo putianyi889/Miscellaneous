@@ -3,6 +3,7 @@
 - [NPCs](https://terraria.gamepedia.com/NPCs) 幸福度
 - [Trees](https://terraria.gamepedia.com/Trees) 树上掉落
 - [Biomes](https://terraria.gamepedia.com/Biomes) 环境判定规则更新
+- [Defense](https://terraria.gamepedia.com/Defense) 防御值
 
 ## New accessories
 - [Inner Tube](https://terraria.gamepedia.com/Inner_Tube) 游泳圈
