@@ -1,6 +1,7 @@
-# 总结：1.4.0.2中的`AnyDanger(false)`相当于1.3.5.3中的`AnyDanger()`。
+## 总结
+1.4.0.2中的`AnyDanger(false)`相当于1.3.5.3中的`AnyDanger()`。
 
-# 1.4.0.2
+## 1.4.0.2
 ``` c
 \\NPC
     public static bool AnyDanger(bool quickBossNPCCheck = false)
@@ -33,7 +34,7 @@
     public static bool[] DangerThatPreventsOtherDangers = NPCID.Sets.Factory.CreateBoolSet(517, 422, 507, 493, 399);
 ```
 
-# 1.3.5.3
+## 1.3.5.3
 
 ``` c
 //NPC
