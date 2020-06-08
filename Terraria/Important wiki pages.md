@@ -4,6 +4,7 @@
 - [Trees](https://terraria.gamepedia.com/Trees) 树上掉落
 - [Biomes](https://terraria.gamepedia.com/Biomes) 环境判定规则更新
 - [Defense](https://terraria.gamepedia.com/Defense) 防御值
+- [Horizontal movement](https://terraria.gamepedia.com/Player_stats#Horizontal_movement) 走路速度
 
 ## New accessories
 - [Inner Tube](https://terraria.gamepedia.com/Inner_Tube) 游泳圈
