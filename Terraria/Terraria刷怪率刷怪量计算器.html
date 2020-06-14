@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<head>
+<script>
+function myFunction()
+{
+	spawnRate=600;
+	maxSpawns=5;
+	op=document.getElementById("demo");
+	hardMode=document.getElementById("hardMode").checked;
+	underworld=document.getElementById("underworld").checked;
+	cavern=document.getElementById("cavern").checked;
+	underground=document.getElementById("underground").checked;
+	surface=document.getElementById("surface").checked;
+	space=document.getElementById("space").checked;
+	dayTime=document.getElementById("dayTime").checked;
+	bloodMoon=document.getElementById("bloodMoon").checked;
+	pumpkinMoon=document.getElementById("pumpkinMoon").checked;
+	snowMoon=document.getElementById("snowMoon").checked;
+	drunkWorld=document.getElementById("drunkWorld").checked;
+	HiveUnsafe=document.getElementById("HiveUnsafe").checked;
+	ZoneDungeon=document.getElementById("ZoneDungeon").checked;
+	ZoneSandstorm=document.getElementById("ZoneSandstorm").checked;
+	ZoneUndergroundDesert=document.getElementById("ZoneUndergroundDesert").checked;
+	ZoneJungle=document.getElementById("ZoneJungle").checked;
+	ZoneEvil=document.getElementById("ZoneEvil").checked;
+	ZoneMeteor=document.getElementById("ZoneMeteor").checked;
+	ZoneHallow=document.getElementById("ZoneHallow").checked;
+	wof=document.getElementById("wof").checked;
+	invis=document.getElementById("invis").checked;
+	calmed=document.getElementById("calmed").checked;
+	sunflower=document.getElementById("sunflower").checked;
+	enemySpawns=document.getElementById("enemySpawns").checked;
+	ZoneWaterCandle=document.getElementById("ZoneWaterCandle").checked;
+	ZonePeaceCandle=document.getElementById("ZonePeaceCandle").checked;
+	isNearFairy=document.getElementById("isNearFairy").checked;
+	if(hardMode){
+		spawnRate=parseInt(spawnRate*0.9);
+		maxSpawns=maxSpawns+1;
+	}
+	if(underworld){
+		maxSpawns=maxSpawns*2;
+	}
+	else if(cavern){
+		spawnRate=parseInt(spawnRate*0.4);
+		maxSpawns=parseInt(maxSpawns*1.9);
+	}
+	else if(underground){
+		if(hardMode){
+			spawnRate=parseInt(spawnRate*0.45);
+			maxSpawns=parseInt(maxSpawns*1.8);
+		}
+		else{
+			spawnRate=parseInt(spawnRate*0.5);
+			maxSpawns=parseInt(maxSpawns*1.7);
+		}
+	}
+	else if(!dayTime){
+		spawnRate=parseInt(spawnRate*0.6);
+		maxSpawns=parseInt(maxSpawns*1.3);
+		if(bloodMoon){
+			spawnRate=parseInt(spawnRate*0.3);
+			maxSpawns=parseInt(maxSpawns*1.8);
+		}
+	}
+	else if(eclipse){
+		spawnRate=parseInt(spawnRate*0.2);
+		maxSpawns=parseInt(maxSpawns*1.9);
+	}
+	if(drunkWorld&&HiveUnsafe){
+		spawnRate=parseInt(spawnRate*0.3);
+		maxSpawns=parseInt(maxSpawns*1.8);
+	}
+	if(ZoneDungeon){
+		spawnRate=parseInt(spawnRate*0.3);
+		maxSpawns=parseInt(maxSpawns*1.8);
+	}
+	else if(ZoneSandstorm){
+		if(hardMode){
+			spawnRate=parseInt(spawnRate*0.4);
+			maxSpawns=parseInt(maxSpawns*1.5);
+		}
+		else{
+			spawnRate=parseInt(spawnRate*0.9);
+			maxSpawns=parseInt(maxSpawns*1.2);
+		}
+	}
+	else if(ZoneUndergroundDesert){
+		spawnRate=parseInt(spawnRate*0.2);
+		maxSpawns=parseInt(maxSpawns*3);
+	}
+	else if(ZoneJungle){
+		spawnRate=parseInt(spawnRate*0.4);
+		maxSpawns=parseInt(maxSpawns*1.5);
+	}
+	else if(ZoneEvil){
+		spawnRate=parseInt(spawnRate*0.65);
+		maxSpawns=parseInt(maxSpawns*1.3);
+	}
+	else if(ZoneMeteor){
+		spawnRate=parseInt(spawnRate*0.4);
+		maxSpawns=parseInt(maxSpawns*1.1);
+	}
+	if(ZoneHallow&&(cavern||underworld)){
+		spawnRate=parseInt(spawnRate*0.65);
+		maxSpawns=parseInt(maxSpawns*1.3);
+	}
+	if(wof&&underworld){
+		spawnRate=spawnRate*3;
+		maxSpawns=parseInt(maxSpawns*0.3);
+	}
+	if(invis){
+		spawnRate=parseInt(spawnRate*1.2);
+		maxSpawns=parseInt(maxSpawns*0.8);
+	}
+	if(calmed){
+		spawnRate=parseInt(spawnRate*1.3);
+		maxSpawns=parseInt(maxSpawns*0.7);
+	}
+	if(sunflower){
+		spawnRate=parseInt(spawnRate*1.2);
+		maxSpawns=parseInt(maxSpawns*0.8);
+	}
+	if(enemySpawns){
+		spawnRate=parseInt(spawnRate*0.5);
+		maxSpawns=parseInt(maxSpawns*2);
+	}
+	if(ZoneWaterCandle){
+		if(!ZonePeaceCandle){
+			spawnRate=parseInt(spawnRate*0.75);
+			maxSpawns=parseInt(maxSpawns*1.5);
+		}
+	}
+	else if(ZonePeaceCandle){
+		spawnRate=parseInt(spawnRate*1.3);
+		maxSpawns=parseInt(maxSpawns*0.7);
+	}
+	if(ZoneWaterCandle&&space){
+		spawnRate=parseInt(spawnRate*0.5);
+	}
+	if(isNearFairy){
+		spawnRate=parseInt(spawnRate*1.2);
+		maxSpawns=parseInt(maxSpawns*0.8);
+	}
+	document.getElementById("spawnRate").innerHTML=spawnRate;
+	document.getElementById("maxSpawns").innerHTML=maxSpawns;
+}
+
+function dayNight(){//白天有日食有效，没有血月双月；晚上没有日食，有血月双月
+	if(document.getElementById("dayTime").checked){
+		document.getElementById("eclipse").disabled=false;
+		document.getElementById("eclipseText").style.color="black";
+		document.getElementById("bloodMoon").disabled=true;
+		document.getElementById("bloodMoon").checked=false;
+		document.getElementById("bloodMoonText").style.color="grey";
+	}
+	else{
+		document.getElementById("eclipse").disabled=true;
+		document.getElementById("eclipseText").style.color="grey";
+		document.getElementById("eclipse").checked=false;
+		document.getElementById("bloodMoon").disabled=false;
+		document.getElementById("bloodMoonText").style.color="black";
+	}
+}
+
+function notOverground(){//地下有地牢环境，没有沙尘暴，昼夜无效
+	document.getElementById("dayTime").disabled=true;
+	document.getElementById("dayTimeText").style.color="grey";
+	
+	document.getElementById("eclipse").disabled=true;
+	document.getElementById("eclipseText").style.color="grey";
+	
+	document.getElementById("bloodMoon").disabled=true;
+	document.getElementById("bloodMoonText").style.color="grey";
+	
+	document.getElementById("ZoneDungeon").disabled=false;
+	document.getElementById("ZoneDungeonText").style.color="black";
+	
+	document.getElementById("ZoneSandstorm").disabled=true;
+	document.getElementById("ZoneSandstorm").checked=false;
+	document.getElementById("ZoneSandstormText").style.color="grey";
+}
+
+function overground(){//地表上没有地牢，有沙尘暴，有丛林，昼夜有效
+	document.getElementById("dayTime").disabled=false;
+	document.getElementById("dayTimeText").style.color="black";
+	
+	document.getElementById("eclipse").disabled=false;
+	document.getElementById("eclipseText").style.color="black";
+	
+	document.getElementById("bloodMoon").disabled=false;
+	document.getElementById("bloodMoonText").style.color="black";
+	
+	document.getElementById("ZoneDungeon").disabled=true;
+	document.getElementById("ZoneDungeonText").style.color="grey";
+	
+	document.getElementById("ZoneSandstorm").disabled=false;
+	document.getElementById("ZoneSandstormText").style.color="black";
+	
+	document.getElementById("ZoneJungle").disabled=false;
+	document.getElementById("ZoneJungleText").style.color="black";
+	
+	document.getElementById("ZoneHallow").disabled=true;
+	document.getElementById("ZoneHallowText").style.color="grey";
+	
+	document.getElementById("wof").disabled=true;
+	document.getElementById("wofText").style.color="grey";
+	dayNight();
+}
+
+function underworldClick(){//地狱没有丛林，其他与地表下一致
+	document.getElementById("ZoneJungle").disabled=true;
+	document.getElementById("ZoneJungle").checked=false;
+	document.getElementById("ZoneJungleText").style.color="grey";
+	
+	document.getElementById("ZoneHallow").disabled=false;
+	document.getElementById("ZoneHallowText").style.color="black";
+	
+	document.getElementById("wof").disabled=false;
+	document.getElementById("wofText").style.color="black";
+	notOverground();
+}
+
+function cavernClick(){//地下和洞穴有丛林，其他与地表下一致
+	document.getElementById("ZoneJungle").disabled=false;
+	document.getElementById("ZoneJungleText").style.color="black";
+	
+	document.getElementById("ZoneHallow").disabled=false;
+	document.getElementById("ZoneHallowText").style.color="black";
+	
+	document.getElementById("wof").disabled=true;
+	document.getElementById("wofText").style.color="grey";
+	notOverground();
+}
+
+function undergroundClick(){
+	document.getElementById("ZoneJungle").disabled=false;
+	document.getElementById("ZoneJungleText").style.color="black";
+	
+	document.getElementById("ZoneHallow").disabled=true;
+	document.getElementById("ZoneHallowText").style.color="grey";
+	
+	document.getElementById("wof").disabled=true;
+	document.getElementById("wofText").style.color="grey";
+
+	notOverground();
+}
+
+function drunkWorldClick(){//不在drunkWorld中时蜂巢墙无效
+	if(document.getElementById("drunkWorld").checked){
+		document.getElementById("HiveUnsafe").disabled=false;
+		document.getElementById("HiveUnsafeText").style.color="black";
+	}
+	else{
+		document.getElementById("HiveUnsafe").disabled=true;
+		document.getElementById("HiveUnsafeText").style.color="grey";
+	}
+}
+
+function ZoneDungeonClick(){//地牢环境中不存在天然蜂巢墙、地下沙漠。地牢环境中丛林、血腐、陨石无效
+	document.getElementById("HiveUnsafe").checked=false;
+	
+	if(document.getElementById("ZoneDungeon").checked){
+		document.getElementById("ZoneUndergroundDesert").disabled=true;
+		document.getElementById("ZoneUndergroundDesert").checked=false;
+		document.getElementById("ZoneUndergroundDesertText").style.color="grey";
+		
+		document.getElementById("ZoneJungle").disabled=true;
+		document.getElementById("ZoneJungleText").style.color="grey";
+		
+		document.getElementById("ZoneEvil").disabled=true;
+		document.getElementById("ZoneEvilText").style.color="grey";
+		
+		document.getElementById("ZoneMeteor").disabled=true;
+		document.getElementById("ZoneMeteorText").style.color="grey";
+	}
+	else{
+		document.getElementById("ZoneUndergroundDesert").disabled=false;
+		document.getElementById("ZoneUndergroundDesertText").style.color="black";
+		ZoneUndergroundDesertClick();
+	}
+}
+
+function ZoneSandstormClick(){
+	if(document.getElementById("ZoneSandstorm").checked){
+		document.getElementById("ZoneJungle").disabled=true;
+		document.getElementById("ZoneJungleText").style.color="grey";
+		
+		document.getElementById("ZoneEvil").disabled=true;
+		document.getElementById("ZoneEvilText").style.color="grey";
+		
+		document.getElementById("ZoneMeteor").disabled=true;
+		document.getElementById("ZoneMeteorText").style.color="grey";
+	}
+	else{
+		document.getElementById("ZoneJungle").disabled=false;
+		document.getElementById("ZoneJungleText").style.color="black";
+		ZoneJungleClick();
+	}
+}
+
+function ZoneUndergroundDesertClick(){//地下沙漠中不存在天然蜂巢墙。地下沙漠中丛林、血腐、陨石无效
+	document.getElementById("HiveUnsafe").checked=false;
+	
+	if(document.getElementById("ZoneUndergroundDesert").checked){
+		document.getElementById("ZoneJungle").disabled=true;
+		document.getElementById("ZoneJungleText").style.color="grey";
+		
+		document.getElementById("ZoneEvil").disabled=true;
+		document.getElementById("ZoneEvilText").style.color="grey";
+		
+		document.getElementById("ZoneMeteor").disabled=true;
+		document.getElementById("ZoneMeteorText").style.color="grey";
+	}
+	else{
+		document.getElementById("ZoneJungle").disabled=false;
+		document.getElementById("ZoneJungleText").style.color="black";
+		ZoneJungleClick();
+	}
+}
+
+function ZoneJungleClick(){
+	if(document.getElementById("ZoneJungle").checked){
+		document.getElementById("ZoneEvil").disabled=true;
+		document.getElementById("ZoneEvilText").style.color="grey";
+		
+		document.getElementById("ZoneMeteor").disabled=true;
+		document.getElementById("ZoneMeteorText").style.color="grey";
+	}
+	else{
+		document.getElementById("ZoneEvil").disabled=false;
+		document.getElementById("ZoneEvilText").style.color="black";
+		ZoneEvilClick();
+	}
+}
+
+function ZoneEvilClick(){
+	if(document.getElementById("ZoneEvil").checked){
+		document.getElementById("ZoneMeteor").disabled=true;
+		document.getElementById("ZoneMeteorText").style.color="grey";
+		
+		document.getElementById("ZoneHallow").checked=false;
+	}
+	else{
+		document.getElementById("ZoneMeteor").disabled=false;
+		document.getElementById("ZoneMeteorText").style.color="black";
+	}
+}
+
+function ZoneHallowClick(){
+	document.getElementById("ZoneEvil").checked=false;
+}
+
+function HiveUnsafeClick(){
+	document.getElementById("ZoneDungeon").checked=false;
+	document.getElementById("ZoneUndergroundDesert").checked=false;
+}
+</script>
+</head>
+
+<body>
+
+<h2>刷怪率刷怪量计算器</h2>
+
+<p id="demo">刷怪率：<span id="spawnRate">600</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp刷怪量：<span id="maxSpawns">5</span></p>
+
+<button type="button" onclick="myFunction()">计算！</button>
+
+<h4>地图信息</h4>
+<p><input id="drunkWorld" type="checkbox" onclick="drunkWorldClick()"/>“醉酒”世界
+<input id="hardMode" type="checkbox"/>困难模式</p>
+
+<p><input id="dayTime" type="checkbox" onclick="dayNight()" checked /><span id="dayTimeText">白天</span>
+<input id="eclipse" type="checkbox"/><span id="eclipseText">日食</span>
+<input id="bloodMoon" type="checkbox" disabled /><span id="bloodMoonText" style="color:grey">血月</span></p>
+
+<p><input id="wof" type="checkbox" disabled /><span id="wofText" style="color:grey">肉山活着</span></p>
+
+
+<h4>角色信息</h4>
+<p><input id="underworld" name="positionY" type="radio" onclick="underworldClick()"/>地狱
+<input id="cavern" name="positionY" type="radio" onclick="cavernClick()"/>洞穴
+<input id="underground" name="positionY" type="radio" onclick="undergroundClick()"/>地下
+<input id="surface" name="positionY" type="radio" onclick="overground()" checked />地表
+<input id="space" name="positionY" type="radio" onclick="overground()"/>太空</p>
+
+<p><input id="ZoneDungeon" type="checkbox" onclick="ZoneDungeonClick()" disabled /><span id="ZoneDungeonText" style="color:grey">地牢</span>
+<input id="ZoneSandstorm" type="checkbox" onclick="ZoneSandstormClick()"/><span id="ZoneSandstormText">沙尘暴</span>
+<input id="ZoneUndergroundDesert" type="checkbox" onclick="ZoneUndergroundDesertClick()" disabled /><span id="ZoneUndergroundDesertText" style="color=grey">地下沙漠</span>
+<input id="ZoneJungle" type="checkbox" onclick="ZoneJungleClick()"/><span id="ZoneJungleText">丛林</span>
+<input id="ZoneEvil" type="checkbox" onclick="ZoneEvilClick()"/><span id="ZoneEvilText">血腐</span>
+<input id="ZoneMeteor" type="checkbox" onclick="ZoneMeteorClick()"/><span id="ZoneMeteorText">陨石</span>
+<input id="ZoneHallow" type="checkbox" onclick="ZoneHallowClick()" disabled /><span id="ZoneHallowText" style="color:grey">神圣</span></p>
+
+<p><input id="HiveUnsafe" type="checkbox" onclick="HiveUnsafeClick()" disabled /><span id="HiveUnsafeText" style="color:grey">天然蜂巢墙</span>
+<input id="isNearFairy" type="checkbox"/>附近有精灵</p>
+
+<p><input id="invis" type="checkbox"/>隐身
+<input id="calmed" type="checkbox"/>镇静
+<input id="sunflower" type="checkbox"/>向日葵
+<input id="enemySpawns" type="checkbox"/>战争
+<input id="ZoneWaterCandle" type="checkbox"/>水蜡烛
+<input id="ZonePeaceCandle" type="checkbox"/>和平蜡烛</p>
+
+<h4>说明</h4>
+出于从用户角度考虑，将算法中的某些过程做了模糊处理。
+<ul>
+<li>地层分界有出入，例如地下和地表的分界，在某些步骤中是 <code>Main.worldSurface</code>，某些步骤中是 <code>Main.worldSurface-NPC.sHeight</code>。建议用户在搞清楚这些细节之前回避地层的分界</li>
+<li>在地表雪原环境中， <code>Main.cloudAlpha</code>会影响刷怪率和刷怪量。由于该变量是动态随机的，本工具将 <code>Main.cloudAlpha</code>取为了非雨天时的稳定值 <code>0</code>。</li>
+<li>活跃敌怪数量会影响刷怪率，但是由于设计刷怪场时不考虑该变量，本工具将其取为 <code>15</code> 以增加容错。</li>
+<li>实际上计算完以后还要做截断处理。刷怪率最低为60，刷怪量最高为15。双月、撒旦、事件的刷怪率和刷怪量是锁定的。骷髅王前地牢的刷怪率是锁定的。</li>
+<li>出于刷怪场对于刷怪速度要求的考虑，本工具认为角色附近没有城镇NPC。</li>
+<li>“附近有精灵”选项虽然是动态的，但是勾选该选项会增加刷怪率，减少刷怪量。用户可视容错情况自行选择是否勾选。</li>
+</ul>
+
+
+</body>
