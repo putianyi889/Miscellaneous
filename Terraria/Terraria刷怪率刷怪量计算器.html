@@ -178,6 +178,7 @@ function notOverground(){//地下有地牢环境，没有沙尘暴，昼夜无�
 	document.getElementById("ZoneSandstorm").disabled=true;
 	document.getElementById("ZoneSandstorm").checked=false;
 	document.getElementById("ZoneSandstormText").style.color="grey";
+	ZoneSandstormClick();
 	
 	document.getElementById("ZoneUndergroundDesert").disabled=false;
 	document.getElementById("ZoneUndergroundDesertText").style.color="black";
@@ -196,6 +197,7 @@ function overground(){//地表上没有地牢，有沙尘暴，有丛林，昼�
 	document.getElementById("ZoneDungeon").disabled=true;
 	document.getElementById("ZoneDungeon").checked=false;
 	document.getElementById("ZoneDungeonText").style.color="grey";
+	ZoneDungeonClick();
 	
 	document.getElementById("ZoneSandstorm").disabled=false;
 	document.getElementById("ZoneSandstormText").style.color="black";
@@ -203,6 +205,7 @@ function overground(){//地表上没有地牢，有沙尘暴，有丛林，昼�
 	document.getElementById("ZoneUndergroundDesert").disabled=true;
 	document.getElementById("ZoneUndergroundDesert").checked=false;
 	document.getElementById("ZoneUndergroundDesertText").style.color="grey";
+	ZoneUndergroundDesertClick();
 	
 	document.getElementById("ZoneJungle").disabled=false;
 	document.getElementById("ZoneJungleText").style.color="black";
@@ -219,6 +222,7 @@ function underworldClick(){//地狱没有丛林，其他与地表下一致
 	document.getElementById("ZoneJungle").disabled=true;
 	document.getElementById("ZoneJungle").checked=false;
 	document.getElementById("ZoneJungleText").style.color="grey";
+	ZoneJungleClick();
 	
 	document.getElementById("ZoneHallow").disabled=false;
 	document.getElementById("ZoneHallowText").style.color="black";
@@ -356,11 +360,13 @@ function ZoneEvilClick(){
 
 function ZoneHallowClick(){
 	document.getElementById("ZoneEvil").checked=false;
+	ZoneEvilClick();
 }
 
 function HiveUnsafeClick(){
 	document.getElementById("ZoneDungeon").checked=false;
 	document.getElementById("ZoneUndergroundDesert").checked=false;
+	ZoneDungeonClick();
 }
 </script>
 </head>
