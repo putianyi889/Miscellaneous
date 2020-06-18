@@ -11,3 +11,6 @@
 
 ## New weapons
 - [Shadow Jousting Lance](https://terraria.gamepedia.com/Shadow_Jousting_Lance) 骑枪
+
+## New tiles
+- [Cracked Dungeon Bricks](https://terraria.gamepedia.com/Cracked_Dungeon_Bricks) 破损的地牢砖
