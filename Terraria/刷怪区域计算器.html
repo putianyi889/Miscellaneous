@@ -16,14 +16,16 @@ function myFunction()
 	SniperRifle=document.getElementById("SniperRifle").checked;
 	Binoculars=document.getElementById("Binoculars").checked;
 	
-	if(SniperRifle&&scope) num5=1.25;
-	else if(SniperRifle||Binoculars) num5=1.5;
-	else if(scope) num5=2.0;
+	if(scope||SniperRifle||Binoculars){
+		if(SniperRifle&&scope) num5=1.25;
+		else if(SniperRifle||Binoculars) num5=1.5;
+		else if(scope) num5=2.0;
 	
-	spawnRangeX += parseInt(sWidth / 16 * 0.5 / num5);
-	spawnRangeY += parseInt(sHeight / 16 * 0.5 / num5);
-	safeRangeX += parseInt(sWidth / 16 * 0.5 / num5);
-	safeRangeY += parseInt(sHeight / 16 * 0.5 / num5);
+		spawnRangeX += parseInt(sWidth / 16 * 0.5 / num5);
+		spawnRangeY += parseInt(sHeight / 16 * 0.5 / num5);
+		safeRangeX += parseInt(sWidth / 16 * 0.5 / num5);
+		safeRangeY += parseInt(sHeight / 16 * 0.5 / num5);
+	}
 	
 	document.getElementById("spawnRangeX").innerHTML=spawnRangeX;
 	document.getElementById("spawnRangeY").innerHTML=spawnRangeY;
@@ -55,11 +57,12 @@ function myFunction()
 
 <p>刷怪区域宽度：<span id="spawnRangeX">84</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp刷怪区域高度：<span id="spawnRangeY">47</span></p>
 <p>安全区域宽度：<span id="safeRangeX">62</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp安全区域高度：<span id="safeRangeY">35</span></p>
-
-<button type="button" onclick="myFunction()">计算！</button>
 	
 	<p><input id="scope" type="checkbox" onclick="scopeClick()"/>装备了步枪瞄准镜/狙击镜/Recon Scope，并且正在手持可以发射子弹、玉米糖、尖桩、凝胶的武器</p>
 	<p><input id="SniperRifle" type="checkbox" onclick="SniperRifleClick()"/>正在手持狙击步枪</p>
 	<p><input id="Binoculars" type="checkbox" onclick="BinocularsClick()"/>正在手持望远镜</p>
+	
+	<h4>说明</h4>
+	计算出来的数值对应源码中的<code>NPC.spawnRangeX, NPC.spawnRangeY, NPC.safeRangeX, NPC.safeRangeY</code>。它们的实际意义是半高度或半宽度。游戏中的生成区域和安全区域都是以角色左上角所在格为中心，向四周分别延伸半宽度或半高度形成的矩形。
 	
 </body>
