@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+<script>
+function myFunction()
+{
+	sWidth=1920;
+  sHeight=1080;
+  spawnRangeX = parseInt(sWidth / 16 * 0.7);
+  spawnRangeY = parseInt(sHeight / 16 * 0.7);
+  safeRangeX = parseInt(sWidth / 16 * 0.52);
+  safeRangeY = parseInt(sHeight / 16 * 0.52);
+	document.getElementById("spawnRangeX").innerHTML=spawnRangeX;
+	document.getElementById("spawnRangeY").innerHTML=spawnRangeY;
+  document.getElementById("safeRangeX").innerHTML=safeRangeX;
+  document.getElementById("safeRangeY").innerHTML=safeRangeY;
+}
+</script>
+</head>
+
+<body>
+
+<h2>刷怪区域计算器</h2>
+
+<p>刷怪区域宽度：<span id="spawnRangeX">600</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp刷怪区域高度：<span id="spawnRangeY">5</span></p>
+<p>安全区域宽度：<span id="safeRangeX">600</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp安全区域高度：<span id="safeRangeY">5</span></p>
+
+<button type="button" onclick="myFunction()">计算！</button>
+</body>
