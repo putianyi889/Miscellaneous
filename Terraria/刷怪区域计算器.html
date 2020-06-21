@@ -2,36 +2,31 @@
 
 <head>
 <script>
-function myFunction()
-{
-	sWidth=1920;
-  sHeight=1080;
-	
-  spawnRangeX = parseInt(sWidth / 16 * 0.7);
-  spawnRangeY = parseInt(sHeight / 16 * 0.7);
-  safeRangeX = parseInt(sWidth / 16 * 0.52);
-  safeRangeY = parseInt(sHeight / 16 * 0.52);
-	
-	scope=document.getElementById("scope").checked;
-	SniperRifle=document.getElementById("SniperRifle").checked;
-	Binoculars=document.getElementById("Binoculars").checked;
-	
-	if(scope||SniperRifle||Binoculars){
-		if(SniperRifle&&scope) num5=1.25;
-		else if(SniperRifle||Binoculars) num5=1.5;
-		else if(scope) num5=2.0;
-	
-		spawnRangeX += parseInt(sWidth / 16 * 0.5 / num5);
-		spawnRangeY += parseInt(sHeight / 16 * 0.5 / num5);
-		safeRangeX += parseInt(sWidth / 16 * 0.5 / num5);
-		safeRangeY += parseInt(sHeight / 16 * 0.5 / num5);
+	function myFunction()
+	{
+		sWidth=1920;
+		sHeight=1080;
+		spawnRangeX = parseInt(sWidth / 16 * 0.7);
+		spawnRangeY = parseInt(sHeight / 16 * 0.7);
+		safeRangeX = parseInt(sWidth / 16 * 0.52);
+		safeRangeY = parseInt(sHeight / 16 * 0.52);
+		scope=document.getElementById("scope").checked;
+		SniperRifle=document.getElementById("SniperRifle").checked;
+		Binoculars=document.getElementById("Binoculars").checked;
+		if(scope||SniperRifle||Binoculars){
+			if(SniperRifle&&scope) num5=1.25;
+			else if(SniperRifle||Binoculars) num5=1.5;
+			else if(scope) num5=2.0;
+			spawnRangeX += parseInt(sWidth / 16 * 0.5 / num5);
+			spawnRangeY += parseInt(sHeight / 16 * 0.5 / num5);
+			safeRangeX += parseInt(sWidth / 16 * 0.5 / num5);
+			safeRangeY += parseInt(sHeight / 16 * 0.5 / num5);
+		}
+		document.getElementById("spawnRangeX").innerHTML=spawnRangeX;
+		document.getElementById("spawnRangeY").innerHTML=spawnRangeY;
+		document.getElementById("safeRangeX").innerHTML=safeRangeX;
+		document.getElementById("safeRangeY").innerHTML=safeRangeY;
 	}
-	
-	document.getElementById("spawnRangeX").innerHTML=spawnRangeX;
-	document.getElementById("spawnRangeY").innerHTML=spawnRangeY;
-  document.getElementById("safeRangeX").innerHTML=safeRangeX;
-  document.getElementById("safeRangeY").innerHTML=safeRangeY;
-}
 	
 	function scopeClick(){
 		document.getElementById("Binoculars").checked=false;
@@ -52,11 +47,9 @@ function myFunction()
 </head>
 
 <body>
-
-<h2>刷怪区域计算器</h2>
-
-<p>刷怪区域宽度：<span id="spawnRangeX">84</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp刷怪区域高度：<span id="spawnRangeY">47</span></p>
-<p>安全区域宽度：<span id="safeRangeX">62</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp安全区域高度：<span id="safeRangeY">35</span></p>
+	<h2>刷怪区域计算器</h2>
+	<p>刷怪区域宽度：<span id="spawnRangeX">84</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp刷怪区域高度：<span id="spawnRangeY">47</span></p>
+	<p>安全区域宽度：<span id="safeRangeX">62</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp安全区域高度：<span id="safeRangeY">35</span></p>
 	
 	<p><input id="scope" type="checkbox" onclick="scopeClick()"/>装备了步枪瞄准镜/狙击镜/Recon Scope，并且正在手持可以发射子弹、玉米糖、尖桩、凝胶的武器</p>
 	<p><input id="SniperRifle" type="checkbox" onclick="SniperRifleClick()"/>正在手持狙击步枪</p>
