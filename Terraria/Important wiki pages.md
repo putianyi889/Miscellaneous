@@ -14,3 +14,4 @@
 
 ## New tiles
 - [Cracked Dungeon Bricks](https://terraria.gamepedia.com/Cracked_Dungeon_Bricks) 破损的地牢砖
+- [Echo Block](https://terraria.gamepedia.com/Echo_Block) 隐形砖
