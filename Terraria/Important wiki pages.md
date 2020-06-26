@@ -8,6 +8,9 @@
 
 ## New accessories
 - [Inner Tube](https://terraria.gamepedia.com/Inner_Tube) 游泳圈
+- [Treasure Magnet](https://terraria.gamepedia.com/Treasure_Magnet)
+- [Soaring Insignia](https://terraria.gamepedia.com/Soaring_Insignia)
+- [Celestial Starboard](https://terraria.gamepedia.com/Celestial_Starboard) 天界星盘
 
 ## New weapons
 - [Shadow Jousting Lance](https://terraria.gamepedia.com/Shadow_Jousting_Lance) 骑枪
