@@ -77,7 +77,7 @@
   - 两个玩家互啄，指的是双方把所有pb摆出来一一单挑并计分。双方都有的bv，胜积1分，负积0分，平则各积0.5分。独占bv积0.25分。
   
 - bpp、ipp、epp、ppp、area？
-  - pp是当前三个核心参数time、bvs、stnb的几何平均乘上标准化常数。
+  - pp是当前三个核心参数1/time、bvs、stnb的几何平均（因为time是越小越好，所以改用1/time）乘上标准化常数。
   - b、i、e对应初级、中级、高级。ppp是bpp、ipp、epp的几何平均。
   - 用雷达图顺时针画出bpp、ipp、epp、ppp，得到的四边形面积即为area。
   
