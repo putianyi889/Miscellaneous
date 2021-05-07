@@ -1,4 +1,4 @@
-## 文件名：`ArbiterStatsAuto39.7F.xlsm`，下文简称为“大表”。
+## 文件名：`ArbiterStatsAuto39.9F.xlsm`，下文简称为“大表”。
 
 ___
 ## 开始使用
@@ -24,10 +24,10 @@ ___
 qg和stnb也属于速度参数。time侧重小图实力，bvs侧重大图实力，qg和stnb侧重中图实力。`qg=time^1.7/bv`，而`stnb=sqrt(completion)*常数/qg`。这个常数的作用是让同水平下三级别的stnb大致相等。三级别对应的常数分别为`47.299, 153.73, 435.001`。
 
 ### 效率参数
-效率参数包括corr、thrp、ioe。
+效率参数包括corr、thrp、ioe、cpo。
 - corr表示点击有效率，`corr=ce/cl`。
-- thrp表示优化效率（直译吞吐量，又称破空率），`thrp=bv/ce`。
-- ioe表示总操作效率，`ioe=bv/cl=corr*thrp`。
+- thrp(throughput)表示优化效率（直译吞吐量，又称破空率），`thrp=bv/ce`。
+- ioe(index of efficiency)表示总操作效率，`ioe=bv/cl=corr*thrp`。
 
 这三个参数只受到扫法和固有参数的间接影响。从大表中能看出，同一个人扫法不变的情况下，这三个参数的平均值几乎是固定的。不同人的效率参数往往区别非常明显。
 
