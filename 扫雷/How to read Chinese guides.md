@@ -6,7 +6,7 @@ Many terms regarding minesweeper are distorted by Google translation and here is
 - mine: Lei, thunder
 - pattern: stereotype, fixed-form, formula, type, shape, Jingji
 - top player: high play
-- determine: judge, detect, sentence
+- deduct: determine, judge, detect, sentence
 - minesweeper: mine clearance
 - unopened: empty
 - opening: empty
