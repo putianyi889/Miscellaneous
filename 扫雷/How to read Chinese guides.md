@@ -29,6 +29,7 @@ Many terms regarding minesweeper are distorted by Google translation and here is
 - awareness: consciousness
 - statistic: indicator
 - board: map
+- next to: leaning against
 
 ## Nicknames of Chinese players
 - Wei-Jia Guo: Guo Jia, Guo Di
