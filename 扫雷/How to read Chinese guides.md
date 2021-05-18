@@ -19,3 +19,4 @@ Many terms regarding minesweeper are distorted by Google translation and here is
 - solid content: dry goods
 - player: contestant
 - basic: on the road
+- practice: actual combat
