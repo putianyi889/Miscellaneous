@@ -8,7 +8,7 @@ Many terms regarding minesweeper are distorted by Google translation and here is
 - top player: high play
 - determine: judge, detect, sentence
 - minesweeper: mine clearance
-- safe: empty
+- unopened: empty
 - opening: empty
 - speed: race
 - shared: common
