@@ -24,3 +24,4 @@ Many terms regarding minesweeper are distorted by Google translation and here is
 - practice: actual combat
 - flag: standard
 - chord: double tapping
+- #1 in China: Lei Di
