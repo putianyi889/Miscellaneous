@@ -31,5 +31,6 @@ Many terms regarding minesweeper are distorted by Google translation and here is
 - board: map
 - next to: leaning against
 
-## Nicknames of Chinese players
+## Slangs and Nicknames
 - Wei-Jia Guo: Guo Jia, Guo Di
+- tql means too strong, a praise.
