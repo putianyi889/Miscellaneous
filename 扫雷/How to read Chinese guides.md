@@ -11,7 +11,7 @@ Many terms regarding minesweeper are distorted by Google translation and here is
 - deduct: determine, judge, detect, sentence
 - minesweeper: mine clearance
 - unopened: empty
-- opening: empty
+- opening: empty, air
 - speed: race
 - shared: common
 - rectangle: frame
