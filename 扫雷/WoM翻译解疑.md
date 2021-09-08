@@ -29,7 +29,7 @@ WoM上取而代之的是单位局数花费的时间，和开率是一个意思�
 ## 效率
 本来衡量效率的是IOE这个专用术语，但是WoM上将Efficiency和IOE分开了，为了避免出现两个IOE，还是保留了效率这个翻译。
 
-# 其他术语
+# 其他
 这些解释大多都是互联网上查到的。如果有专业人士有更精准的翻译，欢迎提出。
 
 ## 宝石
@@ -50,3 +50,6 @@ Soldier of Fortune是一款游戏。命运战士是它的官方译名。
 Field是陆军，Marshal是元帅。
 
 Rookie和Private的翻译保留。
+
+## 竞技场高分
+决定奖杯的Arena points翻译成竞技场高分，是为了和任务中的Arena points区分。新手容易把任务中的Arena points理解成奖杯中的Arena points，导致不必要的焦虑。
