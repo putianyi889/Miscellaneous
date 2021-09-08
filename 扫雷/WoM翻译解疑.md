@@ -58,6 +58,9 @@ Rookie和Private的翻译保留。
 ## 爹
 网络用语。[爸爸 - 搜索结果 - 小鸡词典](https://jikipedia.com/search?phrase=%E7%88%B8%E7%88%B8)
 
+## 中等意思
+https://jikipedia.com/definition/750588361?action=lite-card
+
 # 乱七八糟
 这部分主要包含了经过讨论后决定保留的翻译。
 
