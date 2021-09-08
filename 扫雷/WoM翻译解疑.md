@@ -15,6 +15,7 @@
 - “黄玉”叫“托帕石”是为了避免傻逼把黄色的玉当成黄玉。我们不为傻逼买单，“托帕石”恢复成“黄玉”。——[Archer0930](https://minesweeper.online/zh/player/4043148)
 - 竞技场状态的“时间到”应为“超时”。——firework
 - 某任务描述改成“完成一局用时xx秒内的高级”。——[orangep](https://minesweeper.online/zh/player/1782902)
+- 动态页的筛选器中内容改成“纪录”、“军衔”、“成就”。——PTY
 
 # 扫雷术语
 
