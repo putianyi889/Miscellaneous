@@ -24,6 +24,8 @@ World of Minesweeper上的无猜模式只会出现[定式](https://minesweeper.o
 
 扩展阅读：[郭蔚嘉-【史上最长教程】郭嘉谈NF-v2.0](http://www.saolei.wang/BBS/Title.asp?Id=12992)
 
+和NF相对，FL（Flagging）则是标雷的扫法。从定义上讲，只要标过雷，即使马上取消了标雷，也算作FL。FL分为三种大的流派，一派是以标双操作为核心的全标、暴力FL，一派是以左键操作为核心的伪FL（NFL），一派是技术均衡，以效率为核心的FL（正统FL、中立FL、理性FL等）。
+
 ## 3BV
 3BV（BBBV，Bechtel's Board Benchmark Value）是最经典的衡量局面复杂度的参数。3BV表示完成一张图所需的最少左键点击数。一般情况下一局游戏3BV越大，消耗时间越长，3BV/Time则可以代表一局游戏的平均速度。
 
