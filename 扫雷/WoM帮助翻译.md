@@ -27,6 +27,6 @@ World of Minesweeper上的无猜模式只会出现[定式](https://minesweeper.o
 ## 3BV
 3BV（BBBV，Bechtel's Board Benchmark Value）是最经典的衡量局面复杂度的参数。3BV表示完成一张图所需的最少左键点击数。一般情况下一局游戏3BV越大，消耗时间越长，3BV/Time则可以代表一局游戏的平均速度。
 
-扩展阅读：[张少武-扫雷图的结构以及影响难度的因素分析](https://zhuanlan.zhihu.com/p/27185883)
+扩展阅读：[张少武-扫雷图的结构以及影响难度的因素分析](https://zhuanlan.zhihu.com/p/27185883) [濮天羿-扫雷数据解析](https://github.com/putianyi889/Minesweeper-makes-me-happy/wiki/%E6%89%AB%E9%9B%B7%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90)
 
 为了减少运气局，World of Minesweeper设定了初级、中级、高级的3BV下限，分别为2、30、100。3BV低于下限的游戏不会计入排行榜。
