@@ -3,9 +3,30 @@
 ## 规则
 一个扫雷盘面由许多方格（Cell）组成，方格中随机分布着一定数量的雷（Mine），一个格子中至多只有1雷。胜利条件是打开所有安全格（非雷格，Safe cell），失败条件是打开了一个雷格（踩雷）。
 
-打开一格有两种操作方式，一种是左键点开，一种是当数字周围标了
+扫雷中有三种基础操作方式：
+- 左键点击一个未打开的格子可以将其打开。
+- 右键点击一个未打开的格子可以将其标雷/取消标雷。
+- 双击（左右键同时点击）一个已打开的数字，如果该数字周围标的雷数量等于该数字，那么双击操作会同时打开该数字周围剩余所有格子。
 
-每打开一个安全格，格子上显示的数字表示这格周围的雷数（若此格在中腹，则周围有8格；若在边上，则有5格；若在角上，则有3格）。如果一个安全格周围全都不是雷（有时也称这格是0），游戏会自动帮你打开周围所有格，以这种方式打开的一片格子称为空（Opening）。
-The board is divided into cells, with mines randomly distributed. To win, you need to open all the cells. The number on a cell shows the number of mines adjacent to it. Using this information, you can determine cells that are safe, and cells that contain mines. Cells suspected of being mines can be marked with a flag using the right mouse button.
+World of Minesweeper的设置中可以改变三种操作的触发方式。默认设置下左键会取代双击。设置可以通过游戏界面右上角一个齿轮图标的按钮进入。
 
-To start a new game, you can click on the happy face at the top of the board or use the space bar. The remaining number of mines is displayed in the left corner, and the game timer is displayed in the right corner.
+每打开一个安全格，格子上显示的数字表示这格周围的雷数（若此格在中腹，则周围有8格；若在边上，则有5格；若在角上，则有3格）。如果一个安全格周围全都不是雷（有时也称这格是0），游戏会自动帮你打开周围所有格子，以这种方式打开的一片格子称为**空**（Opening）。你需要利用已打开的格子上显示的数字进行逻辑推理，来帮助你避免踩雷（判雷）或减少你踩雷的概率（猜雷）。
+
+踩雷时，游戏失败，踩到的雷会红色高亮，标错的雷（插在安全格上的旗子）粉色高亮，未标出的雷会显示出来。游戏界面的左上角显示的是剩余雷数（总雷数-标雷数）。游戏界面右上角显示的是计时器，以本局游戏第一次操作为0.001秒开始计时。左键点击剩余雷数-小黄脸-计时器所在的这一条中任何位置可以重开（雷会重新分布）。
+
+## 无猜（NG）模式
+经典模式常常会出现无法判雷，必须猜雷的情况，这会给新手玩家很大的困扰。无猜模式可以帮助你快速入门，学习扫雷中基本的判雷知识。在无猜模式中，只要你从标记有绿色“X”的格子开始，就可以确保在不猜雷的前提下获胜。无猜图的难度越高，其判雷难度也越高。无猜模式中可以免费使用提示，提示按钮在游戏左下角。当判雷陷入死胡同时，可以使用提示，然后**学习提示的推理方法**，争取下次遇到同样的情况可以判出。
+
+World of Minesweeper上的无猜模式只会出现[定式](https://minesweeper.online/zh/help/patterns)中介绍的那些情况。World of Minesweeper自带的提示也只会使用帮助中出现的推理方式，所以在经典模式中如果提示告诉你无解，也许不是真的无解。
+
+## 盲扫（NF）
+盲扫（No flags）是一种不标雷的扫法。扫雷的胜利条件是打开所有安全格，所以理论上只用左键也可以扫开。和全标（把所有雷标出来）扫法相比，盲扫往往可以节省大量的点击，从而在效率上压制全标。
+
+扩展阅读：[郭蔚嘉-【史上最长教程】郭嘉谈NF-v2.0](http://www.saolei.wang/BBS/Title.asp?Id=12992)
+
+## 3BV
+3BV（BBBV，Bechtel's Board Benchmark Value）是最经典的衡量局面复杂度的参数。3BV表示完成一张图所需的最少左键点击数。一般情况下一局游戏3BV越大，消耗时间越长，3BV/Time则可以代表一局游戏的平均速度。
+
+扩展阅读：[张少武-扫雷图的结构以及影响难度的因素分析](https://zhuanlan.zhihu.com/p/27185883)
+
+为了减少运气局，World of Minesweeper设定了初级、中级、高级的3BV下限，分别为2、30、100。3BV低于下限的游戏不会计入排行榜。
