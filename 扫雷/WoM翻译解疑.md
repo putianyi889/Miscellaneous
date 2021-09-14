@@ -10,6 +10,8 @@
 投票结果：
 - https://www.wjx.cn/wxloj/datafullscreen.aspx?activity=130146016
 - https://www.wjx.cn/wxloj/datafullscreen.aspx?activity=130167121
+  
+  最终决定：“完成一局用时xx秒内的高级”
 
 # 待修改
 - 帮助页面的翻译开放征稿。直接自行创建（各种格式的）（在线）文档并提交给我（PTY），（首先）通过质检的会被采纳。不必拘泥于原文，可增加额外内容，但是关键基础的概念一定要明确清晰简洁通俗。
