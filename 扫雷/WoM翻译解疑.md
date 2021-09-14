@@ -3,6 +3,14 @@
 - 目前只翻译了界面上一些短字符串，还没有翻译帮助内容之类的长篇，导致部分用语不一致。
 - 有意见和建议尽快提交，建议被采纳会有奖励（目前来看每条20钻）。
 
+# 投票
+参与投票：
+- https://tp.wjx.top/vj/toDH3fs.aspx
+
+投票结果：
+- https://www.wjx.cn/wxloj/datafullscreen.aspx?activity=130146016
+- https://www.wjx.cn/wxloj/datafullscreen.aspx?activity=130167121
+
 # 待修改
 - 帮助页面的翻译开放征稿。直接自行创建（各种格式的）（在线）文档并提交给我（PTY），（首先）通过质检的会被采纳。不必拘泥于原文，可增加额外内容，但是关键基础的概念一定要明确清晰简洁通俗。
 - 主菜单各项字数太接近，辨识度低，要改。——firework
