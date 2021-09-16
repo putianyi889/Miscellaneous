@@ -18,6 +18,7 @@
 - 主菜单各项字数太接近，辨识度低，要改。——firework
 - 竞技场“限时”和“用时”当前对应同一条目，应分开（需反馈WoM）。——PTY
 - 竞技场部分描述语序修改。——PTY
+- “注销”应改为“登出”。——[喵姬:3](https://minesweeper.online/zh/player/1642846)
 
 # 待更新
 - 帮助-Gameplay——PTY&darkness
