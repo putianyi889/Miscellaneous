@@ -1,0 +1,19 @@
+# Introduction
+
+Gold Sheep Cup (GSC) is a minesweeper tournament held in April and October every year. The next will be the 9th one, from 4:00 12th to 4:00 18th UTC (which is 12:00 to 12:00 Beijing time) in October 2021.
+
+The rules are simple. Participants need to play on Arbiter and submit all their games (Beginner, Intermediate, Expert) in this week. The host, Jin-Yang Guo, will sort the results.
+
+The major competition stat is T37 which is `BT.20+IT.12+ET.5`. B/I/E refer to Beginner/Intermediate/Expert. T refers to Time. `.n` means the sum of the best n scores. For example, Your BT.20 means the summation of your best 20 Beginner games in terms of time. There are also other competition stats, including B37, PPP37, T74, B74, PPP74. They are be explained here.
+
+At the start of a GSC, the host will announce a random token. You need to append this token to your player identification text to prove that the games are played after the tournament starts. After the end, you will have 15 minutes to gather and submit your videos which means that the deadline is 4:15 UTC.
+
+# Arbiter FAQ
+
+## How to download Arbiter?
+You can download Arbiter from [minesweepergame.com](https://minesweepergame.com/download/arbiter.php) or [saolei.wang](http://saolei.wang/Download/Arbiter_0.52.3.zip).
+
+## What is the player identification text?
+The player identification text is a token packed with each video to claim the player's identity. Up on opening a newly downloaded Arbiter, you will see it at the bottom of the window saying "Anonymous! Press F5 for Setup". You can set it in Preferences. The player identification text is critical for the video to be valid.
+
+**NOTE**: Player Identification Text and Replay Player Name are different. The latter only appears in your filename and does nothing towards validity.
