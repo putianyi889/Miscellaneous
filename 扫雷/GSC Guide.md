@@ -23,3 +23,16 @@ For example, if your ID text is `Guo Jin Yang` and the token is `G777`, then you
 
 ## How do I zoom the Arbiter window?
 The fundamental size of Arbiter cells are fixed as 16x16 pixels. There are workarounds to zoom it or make it look larger.
+
+### Zoom the window
+In Windows 10, enter `Display Settings`. The easiest way to do this is to right click on your desktop and choose `Display Settings`. In the section `Scale and layout`, you can `Change the size of text, apps, and other items` which will also scale Arbiter cells. However, this approach can cause windows-related glitches. For example, some streaming software may not be able to capture Arbiter window correctly.
+
+### Make the window look larger
+There are two ways of doing this. The first is to use Magnifier integrated in Windows 10. The other is to change your display resolution. You can lower your resolution down to 800x600 in `Display Settings`-`Scale and layout`-`Display resolution`.
+
+You can also download a tool from here which enables 640x480 resolution. Launch the exe. Click the button to change resolution. Close the window to reset resolution.
+
+After changing your resolution, the Arbiter window looks much larger, but your mouse speed will also feel much faster. To resolve this, if you can set your mouse's dpi, keep in mind that Arbiter cell size is 16 and adjust accordingly. If you can't set your dpi, then changing cursor speed is the only option. Go to `Control Panel`-`Hardware and Sound`-`Devices and Printers`-`Mouse`. Choose the tab `Pointer Options` and you will see the slider.
+
+## How do I chord in Arbiter?
+The only way to chord is by left+right.
