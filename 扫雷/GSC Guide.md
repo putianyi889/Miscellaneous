@@ -17,3 +17,9 @@ You can download Arbiter from [minesweepergame.com](https://minesweepergame.com/
 The player identification text is a token packed with each video to claim the player's identity. Up on opening a newly downloaded Arbiter, you will see it at the bottom of the window saying "Anonymous! Press F5 for Setup". You can set it in Preferences. The player identification text is critical for the video to be valid.
 
 **NOTE**: Player Identification Text and Replay Player Name are different. The latter only appears in your filename and does nothing towards validity.
+
+## How do I append the token?
+For example, if your ID text is `Guo Jin Yang` and the token is `G777`, then you need to change your ID text to `Guo Jin Yang G777`. The sorting process is half-manual so as long as your ID texts are consistent, whether you add a space doesn't matter. If you somehow have inconsistent ID texts, you will need to contact the host to resolve the problem.
+
+## How do I zoom the Arbiter window?
+The fundamental size of Arbiter cells are fixed as 16x16 pixels. There are workarounds to zoom it or make it looks larger.
