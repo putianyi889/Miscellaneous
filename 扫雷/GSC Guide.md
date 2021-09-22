@@ -22,4 +22,4 @@ The player identification text is a token packed with each video to claim the pl
 For example, if your ID text is `Guo Jin Yang` and the token is `G777`, then you need to change your ID text to `Guo Jin Yang G777`. The sorting process is half-manual so as long as your ID texts are consistent, whether you add a space doesn't matter. If you somehow have inconsistent ID texts, you will need to contact the host to resolve the problem.
 
 ## How do I zoom the Arbiter window?
-The fundamental size of Arbiter cells are fixed as 16x16 pixels. There are workarounds to zoom it or make it looks larger.
+The fundamental size of Arbiter cells are fixed as 16x16 pixels. There are workarounds to zoom it or make it look larger.
