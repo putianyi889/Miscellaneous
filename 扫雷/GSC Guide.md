@@ -1,3 +1,5 @@
+[中文](https://zhuanlan.zhihu.com/p/412898862)
+
 # Introduction
 
 Gold Sheep Cup (GSC) is a minesweeper tournament held in April and October every year. The next will be the 9th one, from 4:00 12th to 4:00 18th UTC (which is 12:00 to 12:00 Beijing time) in October 2021.
