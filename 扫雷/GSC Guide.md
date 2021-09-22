@@ -30,7 +30,7 @@ In Windows 10, enter `Display Settings`. The easiest way to do this is to right 
 ### Make the window look larger
 There are two ways of doing this. The first is to use Magnifier integrated in Windows 10. The other is to change your display resolution. You can lower your resolution down to 800x600 in `Display Settings`-`Scale and layout`-`Display resolution`.
 
-You can also download a tool from here which enables 640x480 resolution. Launch the exe. Click the button to change resolution. Close the window to reset resolution.
+You can also download a tool from [saolei.wang](http://saolei.wang/Download/%E5%88%86%E8%BE%A8%E7%8E%87%E8%B0%83%E6%95%B4%E5%B7%A5%E5%85%B7.exe) which enables 640x480 resolution. Launch the exe. Click the button to change resolution. Close the window to reset resolution.
 
 After changing your resolution, the Arbiter window looks much larger, but your mouse speed will also feel much faster. To resolve this, if you can set your mouse's dpi, keep in mind that Arbiter cell size is 16 and adjust accordingly. If you can't set your dpi, then changing cursor speed is the only option. Go to `Control Panel`-`Hardware and Sound`-`Devices and Printers`-`Mouse`. Choose the tab `Pointer Options` and you will see the slider.
 
