@@ -50,6 +50,8 @@ By default, Arbiter autosaves sub10.0 beg, sub50.0 int and sub150.0 exp games to
 Mathematically, there are cash rewards. However, the amount is so low that hardly anybody cares. (If you are still curious, the pool is usually a few hundreds of CNY shared by ~50 players.) We participate for honor and glory.
 
 ## WoM resources
+**NOTE**: This section is still under discussion and not a final plan.
+
 From the 9th GSC, [Minesweeper Online](https://minesweeper.online/) resources are added to the pool to bring more motivation and attract international players. Anyone can sponsor GSC by donating resources to a dedicated account (which we are trying to apply for). Any kind of resources are accepted while different resources apply different allocating rules. All resources fall in to one of the following categories:
 - Currency: coins and gems. The prices of gems are relatively stable so we can do conversions. Currently, 1 gem = 395 coins.
 - Floating-value items: tickets and equips.
