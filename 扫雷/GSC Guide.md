@@ -2,7 +2,7 @@
 
 Gold Sheep Cup (GSC) is a minesweeper tournament held in April and October every year. The next will be the 9th one, from 4:00 12th to 4:00 18th UTC (which is 12:00 to 12:00 Beijing time) in October 2021.
 
-The rules are simple. Participants need to play on Arbiter and submit all their games (Beginner, Intermediate, Expert) in this week. The host, Jin-Yang Guo, will sort the results. To submit, send an email to qxxqlls@163.com.
+The rules are simple. Participants need to play on Arbiter and submit all their games (Beginner, Intermediate, Expert) in this week. The host, Jin-Yang Guo, will sort the results. To submit, gather all videos in to one single folder, zip them (don't zip the folder) and send the zip to qxxqlls@163.com. The sorting process is half-manual so if you make mistakes, you can contact the host to resolve them.
 
 The major competition stat is T37 which is `BT.20+IT.12+ET.5`. B/I/E refer to Beginner/Intermediate/Expert. T refers to Time. `.n` means the sum of the best n scores. For example, Your BT.20 means the summation of your best 20 Beginner games in terms of time. There are also other competition stats, including B37, PPP37, T74, B74, PPP74. They are be explained here.
 
