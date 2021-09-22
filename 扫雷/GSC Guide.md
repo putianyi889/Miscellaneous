@@ -43,3 +43,18 @@ The only way to chord is by left+right.
 
 ## How do I save videos?
 By default, Arbiter autosaves sub10.0 beg, sub50.0 int and sub150.0 exp games to folders `/replays` and `/replays2`. You can customize these from `Preferences`-`Automation`.
+
+# Rewards
+
+## Cash
+Mathematically, there are cash rewards. However, the amount is so low that hardly anybody cares. (If you are still curious, the pool is usually a few hundreds of CNY shared by ~50 players.) We participate for honor and glory.
+
+## WoM resources
+From the 9th GSC, [Minesweeper Online](https://minesweeper.online/) resources are added to the pool to bring more motivation and attract international players. Anyone can sponsor GSC by donating resources to a dedicated account (which we are trying to apply for). Any kind of resources are accepted while different resources apply different allocating rules. All resources fall in to one of the following categories:
+- Currency: coins and gems. The prices of gems are relatively stable so we can do conversions. Currently, 1 gem = 395 coins.
+- Floating-value items: tickets and equips.
+
+The allocation start from the top players. Every player can pick either currency or **one** floating-value item. The amount of currency the player can get is calculated as follows:
+
+- The 1st can get the maximum between 200k or 5% of total currency pool. We calculate the ratio `p` by `p = (top prize)/pool`. For example, if the pool is 2M, then p=10%. If the pool is 5M, then the top prize is 250k and p=5%.
+- The following players can get up to `p*(remaining pool)`, rounded up. For example, if the pool is 2M and the first player takes 200k, then the second player can take up to 1.8M\*10%=180k. If the first player takes an equipment instead, then the second player can take up to 200k. Taking less than what you can get or taking a floating-value item will affect everyone downstream.
