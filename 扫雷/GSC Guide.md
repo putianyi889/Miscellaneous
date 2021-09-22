@@ -65,3 +65,4 @@ PS:
 - You can refuse to receive rewards or take less than what you can get.
 - If there are remaining items in the pool, they will be reserved for the next GSC.
 - We don't accept donations during GSC and during the allocation process. But you can pre-donate by messaging us and we will remind you once our works are done.
+- You still have to submit Arbiter videos to get WoM resources.
