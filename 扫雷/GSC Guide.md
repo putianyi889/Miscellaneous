@@ -36,3 +36,6 @@ After changing your resolution, the Arbiter window looks much larger, but your m
 
 ## How do I chord in Arbiter?
 The only way to chord is by left+right.
+
+## How do I save videos?
+By default, Arbiter autosaves sub10.0 beg, sub50.0 int and sub150.0 exp games to folders `/replays` and `/replays2`. You can customize these from `Preferences`-`Automation`.
