@@ -17,6 +17,8 @@ At the start of a GSC, the host will announce a random token. You need to append
 ## How to download Arbiter?
 You can download Arbiter from [minesweepergame.com](https://minesweepergame.com/download/arbiter.php) or [saolei.wang](http://saolei.wang/Download/Arbiter_0.52.3.zip).
 
+You will need a Windows system. Virtual machines or simulators can work but they will have significant lag which hurts legitimacy of your videos
+
 ## What is the player identification text?
 The player identification text is a token packed with each video to claim the player's identity. Up on opening a newly downloaded Arbiter, you will see it at the bottom of the window saying "Anonymous! Press F5 for Setup". You can set it in Preferences. The player identification text is critical for the video to be valid.
 
