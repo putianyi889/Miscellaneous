@@ -8,6 +8,8 @@ The rules are simple. Participants need to play on Arbiter and submit all their 
 
 The major competition stat is T37 which is `BT.20+IT.12+ET.5`. B/I/E refer to Beginner/Intermediate/Expert. T refers to Time. `.n` means the sum of the best n scores. For example, Your BT.20 means the summation of your best 20 Beginner games in terms of time. There are also other competition stats, including B37, PPP37, T74, B74, PPP74. They will be explained here.
 
+**NOTE**: Only >=10bbbv beg games are counted.
+
 At the start of a GSC, the host will announce a random token. You need to append this token to your player identification text to prove that the games are played after the tournament starts. After the end, you will have 15 minutes to gather and submit your videos which means that the deadline is 4:15 UTC.
 
 # Arbiter FAQ
