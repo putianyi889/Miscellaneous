@@ -6,7 +6,7 @@ The rules are simple. Participants need to play on Arbiter and submit all their 
 
 **NOTE**: when you break a personal record, Arbiter will save a copy of that video in the main folder. Be careful not to collect the same video twice.
 
-The major competition stat is T37 which is `BT.20+IT.12+ET.5`. B/I/E refer to Beginner/Intermediate/Expert. T refers to Time. `.n` means the sum of the best n scores. For example, Your BT.20 means the summation of your best 20 Beginner games in terms of time. There are also other competition stats, including B37, PPP37, T74, B74, PPP74. They will be explained here.
+The major competition stat is T37 which is `BT.20+IT.12+ET.5`. B/I/E refer to Beginner/Intermediate/Expert. T refers to Time. `.n` means the sum of the best n scores. For example, Your BT.20 means the summation of your best 20 Beginner games in terms of time. There are also other competition stats, including B37, PPP37, T74, B74, PPP74. They will be explained here later.
 
 **NOTE**: Only >=10bbbv beg games are counted.
 
@@ -56,7 +56,7 @@ From the 9th GSC, [Minesweeper Online](https://minesweeper.online/) resources ar
 - Currency: coins and gems. The prices of gems are relatively stable so we can do conversions. Currently, 1 gem = 395 coins.
 - Floating-value items: tickets and equips.
 
-The allocation start from the top players. Every player can pick either currency or **one** floating-value item. The amount of currency the player can get is calculated as follows:
+The allocation start from the top players (in terms of T37). Every player can pick either currency or **one** floating-value item. The amount of currency the player can get is calculated as follows:
 
 - The 1st can get the maximum between 200k or 5% of total currency pool. We calculate the ratio `p` by `p = (top prize)/pool`. For example, if the pool is 2M, then p=10%. If the pool is 5M, then the top prize is 250k and p=5%.
 - The following players can get up to `p*(remaining pool)`, rounded up. For example, if the pool is 2M and the first player takes 200k, then the second player can take up to 1.8M\*10%=180k. If the first player takes an equipment instead, then the second player can take up to 200k. Taking less than what you can get or taking a floating-value item will affect everyone downstream.
