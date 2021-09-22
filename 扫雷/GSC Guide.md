@@ -60,3 +60,8 @@ The allocation start from the top players. Every player can pick either currency
 
 - The 1st can get the maximum between 200k or 5% of total currency pool. We calculate the ratio `p` by `p = (top prize)/pool`. For example, if the pool is 2M, then p=10%. If the pool is 5M, then the top prize is 250k and p=5%.
 - The following players can get up to `p*(remaining pool)`, rounded up. For example, if the pool is 2M and the first player takes 200k, then the second player can take up to 1.8M\*10%=180k. If the first player takes an equipment instead, then the second player can take up to 200k. Taking less than what you can get or taking a floating-value item will affect everyone downstream.
+
+PS:
+- You can refuse to receive rewards or take less than what you can get.
+- If there are remaining items in the pool, they will be reserved for the next GSC.
+- We don't accept donations during GSC and during the allocation process. But you can pre-donate by messaging us and we will remind you once our works are done.
