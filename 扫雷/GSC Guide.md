@@ -56,7 +56,7 @@ Mathematically, there are cash rewards. However, the amount is so low that hardl
 ## WoM resources
 **NOTE**: This section is still under discussion and not a final plan.
 
-From the 9th GSC, [Minesweeper Online](https://minesweeper.online/) resources are added to the pool to bring more motivation and attract international players. Anyone can sponsor GSC by donating resources to a dedicated account (which we are trying to apply for). Any kind of resources are accepted while different resources apply different allocating rules. All resources fall into one of the following categories:
+From the 9th GSC, [Minesweeper Online](https://minesweeper.online/) resources are added to the pool to bring more motivation and attract international players. Anyone can sponsor GSC by donating resources to a [dedicated account](https://minesweeper.online/player/5619613). Any kind of resources are accepted while different resources apply different allocating rules. All resources fall into one of the following categories:
 - Currency: coins and gems. The prices of gems are relatively stable so we can do conversions. Currently, 1 gem = 395 coins.
 - Floating-value items: tickets and equips.
 
