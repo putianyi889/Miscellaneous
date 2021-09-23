@@ -65,6 +65,7 @@ The allocation start from the top players (in terms of T37). Every player can pi
 - The following players can get up to `p*(remaining pool)`, rounded up. For example, if the pool is 2M and the first player takes 200k, then the second player can take up to 1.8M\*10%=180k. If the first player takes an equipment instead, then the second player can take up to 200k. Taking less than what you can get or taking a floating-value item will affect everyone downstream.
 
 PS:
+- The prize pool is updated [here](https://docs.google.com/spreadsheets/d/1uP6P3oERcd_POmXP8-vP2Yl0VrIyVny9mmegvZxx2-A/edit?usp=sharing).
 - You can refuse to receive rewards or take less than what you can get.
 - If there are remaining items in the pool, they will be reserved for the next GSC.
 - We don't accept donations during GSC and during the allocation process. But you can pre-donate by messaging us and we will remind you once our works are done.
