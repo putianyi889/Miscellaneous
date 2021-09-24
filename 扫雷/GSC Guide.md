@@ -79,7 +79,7 @@ The allocation start from the top players (in terms of T37). Every player can pi
 The prize pool is updated [here](https://docs.google.com/spreadsheets/d/1uP6P3oERcd_POmXP8-vP2Yl0VrIyVny9mmegvZxx2-A/edit?usp=sharing). It's hosted by [Tian-yi Pu](https://minesweepergame.com/profile.php?pid=8747).
 
 #### Will I get rewards automatically? What if I don't accept my rewards?
-Gold Sheep Cup will contact you to discuss a solution when your rewards are ready. If you don't respond in 24 hours, you will be put in the next place in the queue until you respond. You can refuse to receive rewards or take less than what you can get.
+The GSC official account will contact you to discuss a solution when your rewards are ready. If you don't respond in 24 hours, you will be put in the next place in the queue until you respond. You can refuse to receive rewards or take less than what you can get.
 
 #### What if there are remaining rewards?
 If there are remaining items in the pool, they will be reserved for the next GSC.
