@@ -24,6 +24,9 @@ You only need your [minesweepergame.com](https://minesweepergame.com/) account o
 ### Where do I get the token?
 Please focus on [saolei.wang BBS](http://www.saolei.wang/BBS/Title.asp?Id=20355) which will announce first and [minesweepergame.com forum](https://minesweepergame.com/forum/viewtopic.php?f=14&p=4336&sid=575c9f5862c6c041b9047cc1e4cd26ea#p4336) which will announce next. Otherwise you will need to ask others or wait for someone to forward the information.
 
+### What if I don't submit enough games?
+The default times are 10-60-240. The default bvs and stnb are zero.
+
 # Arbiter FAQ
 
 ## How to download Arbiter?
