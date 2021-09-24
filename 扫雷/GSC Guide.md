@@ -14,7 +14,7 @@ The major competition stat is T.37 which is `BT.20+IT.12+ET.5`. B/I/E refer to B
 
 **NOTE**: Only >=10bbbv beg games are counted.
 
-At the start of a GSC, the host will announce a random token. You need to append this token to your [player identification text](https://github.com/putianyi889/Miscellaneous/blob/master/%E6%89%AB%E9%9B%B7/GSC%20Guide.md#what-is-the-player-identification-text) to prove that the games are played after the tournament starts. After the end, you will have 15 minutes to gather and submit your videos which means that the deadline is 4:15 UTC.
+At the start of a GSC, the host will announce a random token. You need to [append this token](#how-do-i-append-the-token) to your [player identification text](https://github.com/putianyi889/Miscellaneous/blob/master/%E6%89%AB%E9%9B%B7/GSC%20Guide.md#what-is-the-player-identification-text) to prove that the games are played after the tournament starts. After the end, you will have 15 minutes to gather and submit your videos which means that the deadline is 4:15 UTC.
 
 ## FAQ
 
