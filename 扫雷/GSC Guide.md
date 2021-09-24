@@ -28,7 +28,7 @@ Please focus on [saolei.wang BBS](http://www.saolei.wang/BBS/Title.asp?Id=20355)
 The default times are 10-60-240. The default bvs and stnb are zero.
 
 ### Can I use rar instead of zip?
-You can use any popular archive file format, including rar, zip and 7z. Just make sure your file can be dispatched directly into videos rather than a folder, otherwise the host will whine.
+You can use any popular archive file format, including rar, zip and 7z. Just make sure your file can be dispatched directly into videos rather than a folder, otherwise the host will cry.
 
 # Arbiter FAQ
 
