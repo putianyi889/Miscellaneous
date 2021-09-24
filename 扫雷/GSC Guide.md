@@ -6,9 +6,9 @@ Gold Sheep Cup (GSC) is a minesweeper tournament held in April and October every
 
 The rules are simple. Participants need to play on Arbiter and submit all their games (Beginner, Intermediate, Expert) in this week. The host, [Jin-Yang Guo](https://minesweepergame.com/profile.php?pid=4417), will sort the results. To submit, gather all videos in to one single folder, zip them (don't zip the folder) and send the zip to qxxqlls@163.com. The sorting process is half-manual so if you make mistakes, you can contact the host to resolve them.
 
-A player need to have a [minesweepergame.com](https://minesweepergame.com/) account or [saolei.wang](http://www.saolei.wang/Main/Index.asp) account and will be recognised as the name displayed on either minesweepergame.com or saolei.wang. The player ID on either of the sites needs to be included in the email. If you have a [Minesweeper Online](https://minesweeper.online/cn/) account and want to be eligible for [WoM resource rewards](https://github.com/putianyi889/Miscellaneous/blob/master/%E6%89%AB%E9%9B%B7/GSC%20Guide.md#wom-resources), you also need to provide your Minesweeper Online ID and/or username.
-
 **NOTE**: when you break a personal record, Arbiter will save a copy of that video in the main folder. Be careful not to collect the same video twice.
+
+A player need to have a [minesweepergame.com](https://minesweepergame.com/) account or [saolei.wang](http://www.saolei.wang/Main/Index.asp) account and will be recognised as the name displayed on either minesweepergame.com or saolei.wang. The player ID on either of the sites needs to be included in the email. If you have a [Minesweeper Online](https://minesweeper.online/cn/) account and want to be eligible for [WoM resource rewards](https://github.com/putianyi889/Miscellaneous/blob/master/%E6%89%AB%E9%9B%B7/GSC%20Guide.md#wom-resources), you also need to provide your Minesweeper Online ID and/or username.
 
 The major competition stat is T.37 which is `BT.20+IT.12+ET.5`. B/I/E refer to Beginner/Intermediate/Expert. T refers to Time. `.n` means the sum of the best n scores. For example, Your BT.20 means the summation of your best 20 Beginner games in terms of time. There are also other competition stats, including B.37, PPP.37, T.74, B.74, PPP.74. They will be explained here later.
 
