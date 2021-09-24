@@ -6,7 +6,7 @@ Gold Sheep Cup (GSC) is a minesweeper tournament held in April and October every
 
 The rules are simple. Participants need to play on Arbiter and submit all their games (Beginner, Intermediate, Expert) in this week. The host, [Jin-Yang Guo](https://minesweepergame.com/profile.php?pid=4417), will sort the results. To submit, gather all videos in to one single folder, zip them (don't zip the folder) and send the zip to qxxqlls@163.com. The sorting process is half-manual so if you make mistakes, you can contact the host to resolve them.
 
-A player need to have a [minesweepergame.com](https://minesweepergame.com/) account or [saolei.wang](http://www.saolei.wang/Main/Index.asp) account and will be recognised as the name displayed on either minesweepergame.com or saolei.wang. The player ID on either of the sites needs to be included in the email. If you have a [Minesweeper Online](https://minesweeper.online/cn/) account and want to be eligible for WoM resource rewards, you also need to provide your Minesweeper Online ID and/or username. You will need to provide your real name to minesweepergame.com but you can choose to hide your real name and show your nickname instead.
+A player need to have a [minesweepergame.com](https://minesweepergame.com/) account or [saolei.wang](http://www.saolei.wang/Main/Index.asp) account and will be recognised as the name displayed on either minesweepergame.com or saolei.wang. The player ID on either of the sites needs to be included in the email. If you have a [Minesweeper Online](https://minesweeper.online/cn/) account and want to be eligible for WoM resource rewards, you also need to provide your Minesweeper Online ID and/or username.
 
 **NOTE**: when you break a personal record, Arbiter will save a copy of that video in the main folder. Be careful not to collect the same video twice.
 
@@ -15,6 +15,14 @@ The major competition stat is T37 which is `BT.20+IT.12+ET.5`. B/I/E refer to Be
 **NOTE**: Only >=10bbbv beg games are counted.
 
 At the start of a GSC, the host will announce a random token. You need to append this token to your player identification text to prove that the games are played after the tournament starts. After the end, you will have 15 minutes to gather and submit your videos which means that the deadline is 4:15 UTC.
+
+## FAQ
+
+### Do I need to provide my real name?
+You only need your [minesweepergame.com](https://minesweepergame.com/) account or [saolei.wang](http://www.saolei.wang/Main/Index.asp) account. You will need to provide your real name to minesweepergame.com but you can choose to hide your real name and show your nickname instead. You must use your real name on saolei.wang.
+
+### Where do I get the token?
+Please focuse on [saolei.wang BBS](http://www.saolei.wang/BBS/Title.asp?Id=20355) which will announce first and [minesweepergame.com forum](https://minesweepergame.com/forum/viewtopic.php?f=14&p=4336&sid=575c9f5862c6c041b9047cc1e4cd26ea#p4336) which will announce second. Otherwise you will need to ask others or wait for someone to forward the information.
 
 # Arbiter FAQ
 
