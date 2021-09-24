@@ -30,6 +30,9 @@ The default times are 10-60-240. The default bvs and stnb are zero.
 ### Can I use rar instead of zip?
 You can use any popular archive file format, including rar, zip and 7z. Just make sure your file can be dispatched directly into videos rather than a folder, otherwise the host will cry.
 
+### I have problem registering on minesweepergame.com.
+Join the [Discord](https://discord.gg/q9MZJq3447) to resolve your problem.
+
 # Arbiter FAQ
 
 ## How to download Arbiter?
