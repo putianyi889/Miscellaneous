@@ -74,9 +74,18 @@ The allocation start from the top players (in terms of T37). Every player can pi
 - The 1st can get the maximum between 200k or 5% of total currency pool. We calculate the ratio `p` by `p = (top prize)/pool`. For example, if the pool is 2M, then p=10%. If the pool is 5M, then the top prize is 250k and p=5%.
 - The following players can get up to `p*(remaining pool)`, rounded up. For example, if the pool is 2M and the first player takes 200k, then the second player can take up to 1.8M\*10%=180k. If the first player takes an equipment instead, then the second player can take up to 200k. Taking less than what you can get or taking a floating-value item will affect everyone downstream.
 
-PS:
-- The prize pool is updated [here](https://docs.google.com/spreadsheets/d/1uP6P3oERcd_POmXP8-vP2Yl0VrIyVny9mmegvZxx2-A/edit?usp=sharing). It's hosted by [Tian-yi Pu](https://minesweepergame.com/profile.php?pid=8747).
-- You can refuse to receive rewards or take less than what you can get.
-- If there are remaining items in the pool, they will be reserved for the next GSC.
-- We don't accept donations during GSC and during the allocation process. But you can pre-donate by messaging us and we will remind you once our works are done.
-- You still have to submit Arbiter videos to get WoM resources.
+### FAQ
+#### How do I keep track of the prize pool? Who runs the prize pool?
+The prize pool is updated [here](https://docs.google.com/spreadsheets/d/1uP6P3oERcd_POmXP8-vP2Yl0VrIyVny9mmegvZxx2-A/edit?usp=sharing). It's hosted by [Tian-yi Pu](https://minesweepergame.com/profile.php?pid=8747).
+
+#### Will I get rewards automatically? What if I don't accept my rewards?
+Gold Sheep Cup will contact you to discuss a solution when your rewards are ready. If you don't respond in 24 hours, you will be put in the next place in the queue until you respond. You can refuse to receive rewards or take less than what you can get.
+
+#### What if there are remaining rewards?
+If there are remaining items in the pool, they will be reserved for the next GSC.
+
+#### Can I donate during GSC?
+We don't accept donations during GSC and during the allocation process. But you can still issue an exchange. We will take them once our works are done.
+
+#### Do I need WoM videos for WoM resources?
+You still have to submit Arbiter videos to get WoM resources.
