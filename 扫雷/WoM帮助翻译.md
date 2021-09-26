@@ -65,3 +65,6 @@ Minesweeper Online上的无猜模式只会出现[定式](https://minesweeper.onl
 
 # 军衔（Ranks）
 **军衔**代表一名玩家的综合实力档次。军衔越高，能获得的竞技场门票等级越高，能获得的任务等级越高。军衔和[奖杯](https://minesweeper.online/cn/help/trophies)数量挂钩：
+
+# 成就（Achievements）
+玩家达到对应的条件即可获得**成就**。有些成就是为了提高玩家的参与感，有些成就是为了激励玩家提高技术水平。
