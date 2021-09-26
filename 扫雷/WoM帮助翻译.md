@@ -17,14 +17,14 @@
 ## 无猜（NG）模式
 经典模式常常会出现无法判雷，必须猜雷的情况，这会给新手玩家很大的困扰。无猜（no guessing）模式可以帮助你快速入门，学习扫雷中基本的判雷知识。在无猜模式中，只要你从标记有绿色“X”的格子开始，就可以确保在不猜雷的前提下获胜。无猜图的难度越高，其判雷难度也越高。无猜模式中可以免费使用提示，提示按钮在游戏左下角。
 
-Minesweeper Online上的无猜模式只会出现[定式](https://minesweeper.online/zh/help/patterns)中介绍的那些情况。网站自带的提示也只会使用那些推理方式，所以在经典模式中如果提示告诉你无解，也许不是真的无解。
+Minesweeper Online上的无猜模式只会出现[定式](https://minesweeper.online/cn/help/patterns)中介绍的那些情况。网站自带的提示也只会使用那些推理方式，所以在经典模式中如果提示告诉你无解，也许不是真的无解。
 
 ## 盲扫（NF）
 盲扫（no flags）是一种不标雷的扫法。扫雷的胜利条件是打开所有安全格，所以理论上只用左键也可以扫开。和**全标**（把所有雷标出来）扫法相比，盲扫往往可以节省大量的点击，从而在效率上压制全标。
 
 扩展阅读：[郭蔚嘉-【史上最长教程】郭嘉谈NF-v2.0](http://www.saolei.wang/BBS/Title.asp?Id=12992)
 
-和NF相对，**FL**（flagging）则是标雷的扫法。从定义上讲，只要标过雷，即使马上取消了标雷，也算作FL。全标是FL的流派之一。**合理**地在**标双**（标雷+双击）和左键之间切换，可以使得FL的[效率](https://minesweeper.online/zh/help/efficiency)压制NF。
+和NF相对，**FL**（flagging）则是标雷的扫法。从定义上讲，只要标过雷，即使马上取消了标雷，也算作FL。全标是FL的流派之一。**合理**地在**标双**（标雷+双击）和左键之间切换，可以使得FL的[效率](https://minesweeper.online/cn/help/efficiency)压制NF。
 
 ## 3BV
 3BV（BBBV，Bechtel's Board Benchmark Value）是最经典的衡量局面复杂度的参数。3BV表示完成一张图所需的最少左键点击数。一般情况下一局游戏3BV越大，消耗时间越长，3BV/Time则可以代表一局游戏的平均速度。
@@ -54,11 +54,14 @@ Minesweeper Online上的无猜模式只会出现[定式](https://minesweeper.onl
 |:-|:-|
 |时间|各级别下的时间（Time）纪录，按奖杯价值最高的计分。|
 |经验|获得的经验|
-|装备|[装备](https://minesweeper.online/zh/help/equipment)品质|
+|装备|[装备](https://minesweeper.online/cn/help/equipment)品质|
 |动态胜率|动态胜率指连续100局游戏中获胜的局数。只有初级、中级、高级参与动态胜率统计，其中按奖杯价值最高的计分。|
 |连胜|连胜指连续获胜的局数。各游戏模式下都统计连胜，但是只有初级、中级、高级连胜有奖杯价值，并按奖杯价值最高的计分。|
 |竞技场|各模式竞技场完成过的最高等级相加。|
 |难度|完成过的最高难度（至少1000）。指向自定义设置右边的[icon]标志可以显示难度。|
 |开速|开速指完成100局某模式的最短时间跨度。只当开速低于24小时才会统计。只有初级、中级、高级统计开速。|
 |胜场|完成的局数。|
-|成就|获得的[成就](https://minesweeper.online/zh/help/achievements)数量。|
+|成就|获得的[成就](https://minesweeper.online/cn/help/achievements)数量。|
+
+# 军衔（Ranks）
+**军衔**代表一名玩家的综合实力档次。军衔越高，能获得的竞技场门票等级越高，能获得的任务等级越高。军衔和[奖杯](https://minesweeper.online/cn/help/trophies)数量挂钩：
