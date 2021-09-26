@@ -20,6 +20,8 @@
 - 竞技场部分描述语序修改。——PTY
 
 # 待更新
+- 帮助-Trophies-PTY
+- 帮助-Achievements-PTY
 - “注销”应改为“登出”。——[喵姬:3](https://minesweeper.online/zh/player/1642846)
 - “传说声纳”改为“传说声呐”。——PTY
 - 竞技场信息的“用时”改为“局数”。——[罗达列加](https://minesweeper.online/zh/player/5309760)
