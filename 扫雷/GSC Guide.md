@@ -49,10 +49,10 @@ The player identification text is a token packed with each video to claim the pl
 For example, if your ID text is `Guo Jin Yang` and the token is `G777`, then you need to change your ID text to `Guo Jin Yang G777`. The sorting process is half-manual so as long as your ID texts are consistent, whether you add a space doesn't matter. If you somehow have inconsistent ID texts, you will need to contact the host to resolve the problem.
 
 ## How do I zoom the Arbiter window?
-The fundamental size of Arbiter cells are fixed as 16x16 pixels. There are workarounds to zoom it or make it look larger.
+The fundamental size of Arbiter cells are fixed as 16x16 pixels. There are workarounds to zoom it or make it look larger. However, be aware that these methods can interfere with specific capture methods that you use for streaming or recording.
 
 ### Zoom the window
-In Windows 10, enter `Display Settings`. The easiest way to do this is to right click on your desktop and choose `Display Settings`. In the section `Scale and layout`, you can `Change the size of text, apps, and other items` which will also scale Arbiter cells. However, this approach can cause windows-related glitches. For example, some streaming software may not be able to capture Arbiter window correctly.
+In Windows 10, enter `Display Settings`. The easiest way to do this is to right click on your desktop and choose `Display Settings`. In the section `Scale and layout`, you can `Change the size of text, apps, and other items` which will also scale Arbiter cells.
 
 ### Make the window look larger
 There are two ways of doing this. The first is to use Magnifier integrated in Windows 10. The other is to change your display resolution. You can lower your resolution down to 800x600 in `Display Settings`-`Scale and layout`-`Display resolution`.
