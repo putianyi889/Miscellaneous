@@ -123,7 +123,7 @@ Minesweeper Online上的无猜模式只会出现[定式](https://minesweeper.onl
   (third table)
 
 # 网站规则（Website rules）
-以下内容为翻译，实际规则以英文原文为准。
+以下内容为翻译，实际规则以[英文原文](https://minesweeper.online/help/website-rules)为准。
 
 ## 游戏规则
 以下行为属于作弊：
