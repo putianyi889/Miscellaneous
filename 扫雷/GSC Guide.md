@@ -24,7 +24,7 @@ At the start of a GSC, the host will announce a random token. You need to [appen
 You only need your [minesweepergame.com](https://minesweepergame.com/) account or [saolei.wang](http://www.saolei.wang/Main/Index.asp) account. You will need to provide your real name to minesweepergame.com but you can choose to hide your real name and show your nickname instead. You must use your real name on saolei.wang.
 
 ### Where do I get the token?
-Please focus on [saolei.wang BBS](http://www.saolei.wang/BBS/Title.asp?Id=20355) which will announce first and [minesweepergame.com forum](https://minesweepergame.com/forum/viewtopic.php?f=14&p=4336&sid=575c9f5862c6c041b9047cc1e4cd26ea#p4336) which will announce next. Otherwise you will need to ask others or wait for someone to forward the information.
+Please focus on [saolei.wang BBS](http://www.saolei.wang/BBS/Title.asp?Id=20355) which will announce first and [minesweepergame.com forum](https://minesweepergame.com/forum/viewtopic.php?f=14&p=4336&sid=575c9f5862c6c041b9047cc1e4cd26ea#p4336) and [the host's WoM profile](https://minesweeper.online/player/5309760) which will announce next. Otherwise you will need to ask others or wait for someone to forward the information.
 
 ### What if I don't submit enough games?
 The default times are 10-60-240. The default bvs and stnb are zero.
