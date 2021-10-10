@@ -12,7 +12,7 @@ The rules are simple. Participants need to play on [Arbiter](#arbiter-faq) and s
 
 A player need to have a [minesweepergame.com](https://minesweepergame.com/) account or [saolei.wang](http://www.saolei.wang/Main/Index.asp) account and will be recognised as the name displayed on either minesweepergame.com or saolei.wang. The player ID on either of the sites needs to be included in the email. If you have a [Minesweeper Online](https://minesweeper.online/cn/) account and want to be eligible for [WoM resource rewards](https://github.com/putianyi889/Miscellaneous/blob/master/%E6%89%AB%E9%9B%B7/GSC%20Guide.md#wom-resources), you also need to provide your Minesweeper Online ID and/or username.
 
-The major competition stat is T.37 which is `BT.20+IT.12+ET.5`. B/I/E refer to Beginner/Intermediate/Expert. T refers to Time. `.n` means the sum of the best n scores. For example, Your BT.20 means the summation of your best 20 Beginner games in terms of time. There are also other competition stats, including B.37, PPP.37, T.74, B.74, PPP.74. They will be explained here later.
+The major competition stat is T.37 which is `BT.20+IT.12+ET.5`. B/I/E refer to Beginner/Intermediate/Expert. T refers to Time. `.n` means the sum of the best n scores. For example, Your BT.20 means the summation of your best 20 Beginner games in terms of time. There are also other competition [stats](#stats).
 
 **NOTE**: Only >=10bbbv beg games are counted.
 
