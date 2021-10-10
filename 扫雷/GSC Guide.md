@@ -129,9 +129,9 @@ The basic top stats for GSC has the form `(B|I|E)(T|B|S).n`, where `B|I|E` stand
 These stats are the focus of GSC.
 - T.37=BT.20+IT.12+ET.5
 - B.37=BB.20+IB.12+EB.5
-- S.37=BS.20+IS.12+BS.5
+- S.37=BS.20+IS.12+ES.5
 - PPP.37=(BPP.20\*IPP.12\*EPP.5)^(1/3)
 - T.74=BT.40+IT.24+ET.10
-- B.37=BB.40+IB.24+EB.10
-- S.37=BS.40+IS.24+BS.10
+- B.74=BB.40+IB.24+EB.10
+- S.74=BS.40+IS.24+ES.10
 - PPP.74=(BPP.40\*IPP.24\*EPP.10)^(1/3)
