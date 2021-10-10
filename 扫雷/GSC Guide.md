@@ -103,3 +103,35 @@ You still have to submit Arbiter videos to get WoM resources.
 
 #### Does the official account accept 1:1 trade?
 For tracking and transparency purpose, the official account doesn't accept any exchange other than donation.
+
+# Stats
+
+## Three basic stats
+Three basic stats are `time`, `bvs` and `stnb`.
+
+`bvs` stands for `bv/s` or `3bv/s`.
+
+`STNB=C_stnb/QG*sqrt(completion)`, the larger the better. For completed games, `STNB=C_stnb/QG`, where `C_stnb=47.299, 153.73, 435.001` for BEG/INT/EXP respectively and `QG=time^1.7/bv`.
+
+Add STNB to your Arbiter counter by
+```
+STNB
+#|/
+@|(87.420*(mode^2)-155.829*mode+115.708)/((TIMEESTREAL^1.7)/BBBV/((BBBVDONE/BBBV)^0.5)){2}
+```
+
+## Top stats
+The basic top stats for GSC has the form `(B|I|E)(T|B|S).n`, where `B|I|E` stands for BEG/INT/EXP, `T|B|S` stands for Time/Bvs/Stnb and `.n` stands for the summation of top n scores. For example, BB.20 means the summation of 20 best beg bvs's.
+
+`PP.n = C_pp * (B.n * S.n) / (T.n * n)`, where `C_pp=76.1, 4.96, 1` for BEG/INT/EXP respectively.
+
+## Integrated stats
+These stats are the focus of GSC.
+- T.37=BT.20+IT.12+ET.5
+- B.37=BB.20+IB.12+EB.5
+- S.37=BS.20+IS.12+BS.5
+- PPP.37=(BPP.20\*IPP.12\*EPP.5)^(1/3)
+- T.74=BT.40+IT.24+ET.10
+- B.37=BB.40+IB.24+EB.10
+- S.37=BS.40+IS.24+BS.10
+- PPP.74=(BPP.40\*IPP.24\*EPP.10)^(1/3)
