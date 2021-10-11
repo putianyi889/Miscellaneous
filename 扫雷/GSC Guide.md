@@ -123,7 +123,7 @@ STNB
 ## Top stats
 The basic top stats for GSC has the form `(B|I|E)(T|B|S).n`, where `B|I|E` stands for BEG/INT/EXP, `T|B|S` stands for Time/Bvs/Stnb and `.n` stands for the summation of top n scores. For example, BB.20 means the summation of 20 best beg bvs's.
 
-`PP.n = C_pp * (B.n * S.n) / (T.n * n)`, where `C_pp=76.1, 4.96, 1` for BEG/INT/EXP respectively.
+`PP.n = 1/C_pp * (B.n * S.n) / (T.n * n)`, where `C_pp=76.1, 4.96, 1` for BEG/INT/EXP respectively.
 
 ## Integrated stats
 These stats are the focus of GSC.
