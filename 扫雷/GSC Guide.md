@@ -4,7 +4,7 @@
 
 Join [Discord](https://discord.gg/566cFYjqhy) for first-hand notices!
 
-Gold Sheep Cup (GSC) is a minesweeper tournament held in April and October every year. The next will be the 9th one, from 4:00 11th to 4:00 17th UTC (which is 12:00 to 12:00 Beijing time) in October 2021.
+Gold Sheep Cup (GSC) is a minesweeper tournament held in April and October every year. The next will be the 10th one in April 2022.
 
 The rules are simple. Participants need to play on [Arbiter](#arbiter-faq) and submit all their games (Beginner, Intermediate, Expert) in this week. The host, [Jin-Yang Guo](https://minesweepergame.com/profile.php?pid=4417), will sort the results. To submit, gather all videos in to one single folder, zip them (don't zip the folder) and send the zip to qxxqlls@163.com. The sorting process is half-manual so if you make mistakes, you can contact the host to resolve them.
 
