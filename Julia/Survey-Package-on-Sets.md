@@ -137,3 +137,20 @@ Domain
 │     └─ StaticUnitSphere
 └─ TypeDomain
 ```
+
+## JuliaGeometry/GeometryBasics.jl
+```
+AbstractGeometry
+├─ GeometryPrimitive{Dim, T} where {Dim, T<:Number}
+│  ├─ Cylinder{N, T} where {N, T<:Number}
+│  ├─ Particle{N, T} where {N, T<:Number}
+│  ├─ HyperRectangle{N, T} where {N, T<:Number}
+│  ├─ HyperSphere{N, T} where {N, T<:Number}
+│  └─ Pyramid{T} where T<:Number
+└─ Polytope{Dim, T} where {Dim, T<:Number}
+   ├─ AbstractPolygon{Dim, T} where {Dim, T<:Number}
+   │  ├─ Ngon
+   │  ├─ Polygon
+   │  └─ Union{PolygonMeta{N, T, Typ} where {T<:Number, Typ<:AbstractPolygon{N, T}}, PolygonMeta{N, T, Typ} where {T<:Number, Typ<:AbstractPolygon{N, T}}, PolygonMeta{N, T, Typ} where {T<:Number, Typ<:AbstractPolygon{N, T}}} where N
+   └─ Simplex
+```
