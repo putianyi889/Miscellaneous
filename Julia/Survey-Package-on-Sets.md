@@ -67,4 +67,73 @@ LazySet
 └─ UnionSetArray
 ```
 
-## Intervals.jl
+## DomainSets.jl X IntervalSets.jl
+```
+Domain
+├─ AbstractInterval
+│  └─ TypedEndpointsInterval
+│     ├─ FixedInterval
+│     │  ├─ ChebyshevInterval
+│     │  ├─ HalfLine
+│     │  ├─ NegativeHalfLine
+│     │  ├─ RealLine
+│     │  └─ UnitInterval
+│     └─ Interval
+├─ Ball
+│  ├─ GenericBall
+│  └─ UnitBall
+│     ├─ DynamicUnitBall
+│     └─ StaticUnitBall
+├─ ComplexNumbers
+├─ AbstractIndicatorFunction
+│  ├─ BoundedIndicatorFunction
+│  └─ IndicatorFunction
+├─ FunctionLevelSet
+│  ├─ AbstractLevelSet
+│  │  ├─ LevelSet
+│  │  └─ ZeroSet
+│  ├─ AbstractSublevelSet
+│  │  ├─ SublevelSet
+│  │  └─ SubzeroSet
+│  └─ AbstractSuperlevelSet
+│     ├─ SuperlevelSet
+│     └─ SuperzeroSet
+├─ LazyDomain
+│  ├─ CompositeDomain
+│  │  ├─ IntersectDomain
+│  │  ├─ ProductDomain
+│  │  │  ├─ HyperRectangle
+│  │  │  │  ├─ Cube
+│  │  │  │  │  ⋮
+│  │  │  │  │
+│  │  │  │  └─ Rectangle
+│  │  │  ├─ TupleProductDomain
+│  │  │  ├─ VcatDomain
+│  │  │  └─ VectorProductDomain
+│  │  ├─ SetdiffDomain
+│  │  └─ UnionDomain
+│  └─ SimpleLazyDomain
+│     ├─ AbstractMappedDomain
+│     │  ├─ ParametricDomain
+│     │  └─ MappedDomain
+│     └─ DerivedDomain
+│        ├─ ExampleNamedDomain
+│        └─ WrappedDomain
+├─ NaturalNumbers
+├─ Simplex
+│  └─ UnitSimplex
+│     ├─ DynamicUnitSimplex
+│     └─ StaticUnitSimplex
+├─ EmptySpace
+├─ FullSpace
+├─ Integers
+├─ Point
+├─ Rationals
+├─ RealNumbers
+├─ Sphere
+│  ├─ GenericSphere
+│  └─ UnitSphere
+│     ├─ DynamicUnitSphere
+│     └─ StaticUnitSphere
+└─ TypeDomain
+```
