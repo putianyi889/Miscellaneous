@@ -12,7 +12,7 @@
 ## Base.sort
 
 ## `TupleSort.sort`
-This algorithm takes a tuple as input and outputs a sorted tuple. It uses merge sort and produces many intermediate tuples, so becomes slower for large tuple. The owner has no motivation of using other algorithms. Other performance problems are related to the nature of Julia tuples, as splatting a collection is very slow.
+This algorithm takes a tuple as input and outputs a sorted tuple. It uses merge sort and produces many intermediate tuples, so becomes slower for large tuple. [The owner has no motivation of using other algorithms](https://github.com/Jutho/TupleTools.jl/issues/20#issuecomment-1951482632). Other performance problems are related to the nature of Julia tuples, as splatting a collection is very slow.
 
 ## `SortingNetworks.swapsort`
 This algorithm takes arguments as input and outputs a sorted tuple.
