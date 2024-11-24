@@ -85,6 +85,7 @@ julia> A[-3:6,10:15]
 ```
 
 ## Reindexed arrays
+`B` stores indices which point to values in `A`.
 ```julia
 julia> using IndirectArrays
 
