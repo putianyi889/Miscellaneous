@@ -1,6 +1,17 @@
 # Cheatsheet for creating a new package
 
 ## Create the package
+```julia
+julia> using PkgTemplates
+
+julia> Template(interactive=true)("MyPackage")
+
+(@v1.12) pkg> dev MyPackage
+```
+
+Manually create the repository `MyPackage.jl` on GitHub. It has to be completely blank. Don't forget the `.jl` in the repo name.
+
+Publish the local `master` branch.
 
 ## Add Aqua tests (Optional)
 Add the snippet to `runtests.jl`
