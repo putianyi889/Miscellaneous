@@ -23,6 +23,11 @@ using Aqua
 end
 ```
 
+Badge
+```md
+[![Aqua QA](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
+```
+
 ## Create the docs
 ```julia
 julia> using DocumenterTools
