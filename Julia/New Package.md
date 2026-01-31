@@ -131,3 +131,7 @@ Put the badges in `README.md`
 [![](https://img.shields.io/badge/docs-stable-blue.svg)](https://myusername.github.io/MyPackage.jl/stable)
 [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://myusername.github.io/MyPackage.jl/dev)
 ```
+
+## Add code coverage test
+
+Log into the CodeCov website with GitHub account. Find the package repository and config. Follow the instructions.
