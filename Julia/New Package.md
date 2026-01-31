@@ -140,3 +140,8 @@ In `CI.yml`, between the test step and the upload step, insert a processing step
 ```
 - uses: julia-actions/julia-processcoverage@v1
 ```
+
+Put the badge in `README.md`
+```md
+[![codecov](https://codecov.io/gh/myusername/MyPackage.jl/branch/master/graph/badge.svg?label=codecov)](https://codecov.io/gh/myusername/MyPackage.jl)
+```
