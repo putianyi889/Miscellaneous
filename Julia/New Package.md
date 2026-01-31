@@ -135,3 +135,8 @@ Put the badges in `README.md`
 ## Add code coverage test
 
 Log into the CodeCov website with GitHub account. Find the package repository and config. Follow the instructions.
+
+In `CI.yml`, between the test step and the upload step, insert a processing step
+```
+- uses: julia-actions/julia-processcoverage@v1
+```
